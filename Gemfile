@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll', '~> 3.9.1'
-gem "bundler", "~> 2.3"
+gem "bundler", "~> 2.3.20"
 gem "faraday-retry", "~> 2.0"
 
 # If you want to use GitHub Pages, remove the 'gem 'jekyll'' above and
