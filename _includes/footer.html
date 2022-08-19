@@ -1,0 +1,38 @@
+<!-- Footer Start -->
+<footer>
+	<div class="page__footer-follow">
+	  <ul class="social-icons">
+		{% if site.data.ui-text[site.locale].follow_label %}
+		  <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+		{% endif %}
+
+		{% if site.footer.links %}
+		  {% for link in site.footer.links %}
+			{% if link.label and link.url %}
+			  <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'ion-md-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+			{% endif %}
+		  {% endfor %}
+		{% endif %}
+
+		<!-- {% unless site.atom_feed.hide %}
+		  <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+		{% endunless %} -->
+	  </ul>
+	</div>
+	<div class="container">
+		<div class="row">
+		  <div class="col-md-12">
+			<div class="footer-manu">
+			  <ul>
+				<li><a href="/news">News</a></li>
+				<li><a href="/privacy">Privacy Policy</a></li>
+				<li><a href="/about">About Us</a></li>
+				<li><a href="/contact">Contact Us</a></li>
+			  </ul>
+			</div>
+			<p class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="https://github.com/pioneeraero/pioneeraero_website" rel="nofollow">{{ site.name | default: site.title }} Ltd.</a><br> {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/TankedThomas/airspace-jekyll" rel="nofollow">Airspace by Themefisher</a>.</p>
+		  </div>
+		</div>
+	</div>
+</footer>
+<!-- Footer Close -->
