@@ -1,9 +1,20 @@
 /* Main CSS */
 @import "airspace/main";
 
+/* Variables */
+@import "airspace/variables";
+
+/* Mixins */
+@import "airspace/mixins";
+@import "airspace/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+
 /* Components */
-@import "airspace/animate";
+@import "airspace/animate.min";
+@import "airspace/mixins";
 @import "airspace/responsive";
+@import "airspace/search";
+@import "airspace/sidebar";
 @import "airspace/style";
 @import "airspace/syntax";
 
