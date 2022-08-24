@@ -3,22 +3,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 'Pioneer Aero'
+title: "Pioneer Aero"
 email: pioneeraero@gare.works
 description: >- # this means to ignore newlines until 'baseurl:'
   Ardmore Specialised Aircraft Restoration
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://www.pioneeraero.co.nz' # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  pioneeraero
-cover: '/assets/cover.png'
-logo: '/assets/logo.png'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.pioneeraero.co.nz" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: pioneeraero
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
 #remote-theme: TankedThomas/airspace-jekyll
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -39,28 +39,27 @@ paginate: 8
 
 # Exclude from processing
 exclude:
-  - '*.code-workspace'
-  - '*.gemspec'
-  - '/docs/'
-  - 'Gemfile.lock'
-  - 'Gemfile'
-  - 'LICENSE.md'
-  - 'node_modules'
-  - 'README.md'
+  - "*.code-workspace"
+  - "*.gemspec"
+  - "/docs/"
+  - "Gemfile.lock"
+  - "Gemfile"
+  - "LICENSE.md"
+  - "node_modules"
+  - "README.md"
 
 # Always include in processing
 keep_files:
-  - 'CNAME'
-  - '.git'
-  - '.gitignore'
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
 
 # Category descriptions (for archive pages)
 descriptions:
   - cat: jekyll
-    desc: 'Posts describing Jekyll setup techniques.'
+    desc: "Posts describing Jekyll setup techniques."
 
   - cat: dummy
-    desc: 'Just some placeholder posts, lorem ipsum and the rest.'
-
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
 # Google analytics
 # ga_tracking_id: 'UA-XXXX-1'

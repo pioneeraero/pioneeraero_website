@@ -5,9 +5,7 @@
 			<div class="col-md-12">
 				<div class="block">
 					<h1 class="animate__animated animate__fadeIn">News</h1>
-					<p class="animate__animated animate__fadeIn">
-						Check out our latest progress.
-					</p>
+					<p class="animate__animated animate__fadeIn">Check out our latest progress.</p>
 				</div>
 			</div>
 		</div>
@@ -15,22 +13,16 @@
 </section>
 <!-- Slider Close --->
 <!-- News Feed -->
-<!-- <section id="news">
+<!--<section id="news">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 offset-md-2">
-				<div class="block">
-					{% for post in site.posts %}
-					<div class="post-area">
-						<a href="{{ post.url | prepend: site.baseurl }}" class="bold"
-							>{{ post.title }}</a
-						>
+				<div class="block">{% for post in site.posts %}<div class="post-area">
+						<a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
 						<p class="post-date">{{ post.date | date_to_long_string }}</p>
 						<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-					</div>
-					{% endfor %}
-				</div>
+					</div>{% endfor %}</div>
 			</div>
 		</div>
 	</div>
-</section> -->
+</section>-->
