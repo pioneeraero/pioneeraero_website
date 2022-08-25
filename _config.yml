@@ -36,6 +36,8 @@ plugins:
   - jekyll-relative-links
   - jekyll-spaceship
 paginate: 8
+imagesurl: "/assets/img/clients/"
+thumbsurl: "/assets/img/clients/"
 
 # Exclude from processing
 exclude:

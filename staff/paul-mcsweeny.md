@@ -1,11 +1,6 @@
 ---
-id: 900
 title: 'Paul McSweeny'
-date: '2012-07-17T09:51:32+13:00'
-author: Paul McSweeney
-layout: post
-guid: 'https://www.pioneeraero.co.nz/?p=900'
-permalink: /2012/07/17/paul-mcsweeny-director/
+layout: staff
 categories: Staff
 ---
 

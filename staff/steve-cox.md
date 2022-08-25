@@ -1,11 +1,6 @@
 ---
-id: 905
 title: 'Steve Cox'
-date: '2012-07-17T09:50:49+13:00'
-author: Paul McSweeney
-layout: post
-guid: 'https://www.pioneeraero.co.nz/?p=905'
-permalink: /2012/07/17/steve-cox-director/
+layout: staff
 categories: Staff
 ---
 
@@ -15,4 +10,4 @@ Steven has been an engineer since leaving school and has always had an interest 
 
 In August 2009 Steven along with Paul McSweeny took over the business.
 
-Steven has an interest in classic machinery and automobiles, and lists a C-Type Jaguar amoungst his many projects.
+Steven has an interest in classic machinery and automobiles, and lists a C-Type Jaguar amongst his many projects.

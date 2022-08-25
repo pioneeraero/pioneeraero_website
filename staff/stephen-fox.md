@@ -1,13 +1,7 @@
 ---
-id: 2055
 title: 'Stephen Fox'
-date: '2012-07-12T08:11:14+13:00'
-author: Paul McSweeney
-layout: post
-guid: 'https://www.pioneeraero.co.nz/?p=2055'
-permalink: /2012/07/12/stephen-fox/
-categories: Blog
-    - Staff
+layout: staff
+categories: Staff
 ---
 
 **Engineer**

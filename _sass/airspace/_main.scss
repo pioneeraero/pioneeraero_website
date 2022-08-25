@@ -7,7 +7,7 @@
  */
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* var text-decoration */
 /*--
@@ -413,7 +413,7 @@ header .btn:hover {
 	padding-top: 30px;
 	padding-bottom: 75px;
 }
-#clients-logo-section .clients-logo-img {
+#clients-logo-section .slide {
 	padding: 0px 50px;
 }
 /*---------------------------------------------
@@ -468,16 +468,16 @@ header .btn:hover {
 	overflow: hidden;
 	padding: 80px 0;
 }
-#portfolio-work .block .portfolio-menu {
+#portfolio-work .block .project-slider-filters {
 	padding-bottom: 30px;
 	text-align: center;
 }
-#portfolio-work .block .portfolio-menu ul {
+#portfolio-work .block .project-slider-filters ul {
 	border: 1px solid #999999;
 	display: inline-block;
 	margin-bottom: 40px;
 }
-#portfolio-work .block .portfolio-menu ul li {
+#portfolio-work .block .project-slider-filters ul li {
 	display: inline-block;
 	padding: 0px 25px;
 	cursor: pointer;
@@ -488,11 +488,11 @@ header .btn:hover {
 	text-transform: capitalize;
 	position: relative;
 }
-#portfolio-work .block .portfolio-menu ul .active {
+#portfolio-work .block .project-slider-filters ul .active {
 	color: #655e7a;
 	position: relative;
 }
-#portfolio-work .block .portfolio-menu ul .active:before {
+#portfolio-work .block .project-slider-filters ul .active:before {
 	content: "\f0d7";
 	position: absolute;
 	font-family: "FontAwesome";
@@ -512,7 +512,7 @@ header .btn:hover {
 	transition: all 0.4s ease-in-out;
 	pointer-events: none;
 }
-#portfolio-work .block .portfolio-menu ul li:hover:before {
+#portfolio-work .block .project-slider-filters ul li:hover:before {
 	content: "\f0d7";
 	position: absolute;
 	font-family: "FontAwesome";
@@ -532,17 +532,17 @@ header .btn:hover {
 	transition: all 0.4s ease-in-out;
 	pointer-events: none;
 }
-#portfolio-work .block .portfolio-contant ul li {
+#portfolio-work .block .project-slider-container ul li {
 	float: left;
 	width: 32.22%;
 	overflow: hidden;
 	margin: 6px;
 	position: relative;
 }
-#portfolio-work .block .portfolio-contant ul li:hover .overly {
+#portfolio-work .block .project-slider-container ul li:hover .project-overlay {
 	opacity: 1;
 }
-#portfolio-work .block .portfolio-contant ul li:hover .position-center {
+#portfolio-work .block .project-slider-container ul li:hover .position-center {
 	position: absolute;
 	top: 50%;
 	-webkit-transform: translate(0%, -50%);
@@ -550,28 +550,28 @@ header .btn:hover {
 	-ms-transform: translate(0%, -50%);
 	transform: translate(0%, -50%);
 }
-#portfolio-work .block .portfolio-contant ul li a {
+#portfolio-work .block .project-slider-container ul li a {
 	display: block;
 	color: #fff;
 }
-#portfolio-work .block .portfolio-contant ul li a h2 {
+#portfolio-work .block .project-slider-container ul li a h2 {
 	font-size: 22px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-#portfolio-work .block .portfolio-contant ul li a p {
+#portfolio-work .block .project-slider-container ul li a p {
 	font-size: 15px;
 }
-#portfolio-work .block .portfolio-contant ul li a span {
+#portfolio-work .block .project-slider-container ul li a span {
 	font-style: italic;
 	font-size: 13px;
 	color: #655e7a;
 }
-#portfolio-work .block .portfolio-contant ul img {
+#portfolio-work .block .project-slider-container ul img {
 	width: 100%;
 	height: auto;
 }
-#portfolio-work .block .portfolio-contant .overly {
+#portfolio-work .block .project-slider-container .project-overlay {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -584,7 +584,7 @@ header .btn:hover {
 	transition: 0.3s all;
 	text-align: center;
 }
-#portfolio-work .block .portfolio-contant .position-center {
+#portfolio-work .block .project-slider-container .position-center {
 	position: absolute;
 	top: 50%;
 	left: 10%;
@@ -662,6 +662,130 @@ header .btn:hover {
 	text-align: center;
 	display: inline-block;
 	padding: 40px 0px;
+}
+/** filters:init **/
+.project-slider-filters {
+    width: 100%;
+    margin: 0 auto;
+}
+.project-slider-filters ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.project-slider-filters ul li {
+    margin: .5rem;
+}
+.project-slider-filters button{
+    background-color: #FFF; 
+  border: none;
+  color: rgba(0, 0, 0, 0.7);;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    
+}
+/** filters:end **/
+.project-slider-container {    
+    max-width: 1000px;
+    padding: 2rem 3rem;
+    background: #e6e6e6;
+    margin: 2rem auto 0 auto;
+    overflow: hidden;
+    border-radius: 5px;    
+    position:relative;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: blue;
+    }
+}
+img {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+}
+.project-slider {
+    position: relative;    
+}
+
+.slider-item {
+    background: grey;
+    border-right: 2px solid #333;
+    padding: 1.5rem .75rem;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: blue;
+    }
+    
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.slider-controls {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    left: 0;    
+    background: #333;
+    width: 100%;    
+    top: 50%;
+    transform: translatey(-50%);
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    &:focus {
+        outline: none;
+    }
+
+    li:hover {
+        cursor: pointer;        
+    }
+}
+
+.card {
+    text-align: center;    
+    margin: 0 auto;
+    max-width: 200px;       
+    color: #333;
+    background: white;
+    border-radius: 5px;
+    padding-bottom: .75rem;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 2px 2px rgba(black, .3);
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        color: blue;
+    }
+    img {
+        margin-bottom: .25rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+        margin: 0 0 .25rem;
+    }
+    p {
+        margin: 0;
+        padding: 0 .5rem;
+        font-size:0.8rem;
+    }
 }
 /*---------------------------------------------
 					Work Close
