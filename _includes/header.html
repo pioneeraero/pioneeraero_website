@@ -2,15 +2,18 @@
 <header>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 offset-md-1">
 				<!-- Header Nav Start -->
 				<nav class="navbar navbar-expand-lg navbar-light">
 					<div class="container-fluid">
 						<a class="navbar-brand" href="{{ '/' | relative_url }}">
-							<img src="/assets/img/logo.png" alt="Pioneer Aero Logo" width="50%">
+							<img src="/assets/img/logo.png" alt="Pioneer Aero Logo" width="30%">
 						</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNav">
+							<span class="navbar-toggler-icon"></span>
+						</button>
 						<div class="collapse navbar-collapse" id="collapseNav">
-							<ul class="navbar-nav me-auto">
+							<ul class="navbar-nav offset-md-1">
 								<li class="nav-item">
 									<a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
 								</li>
@@ -36,9 +39,6 @@
 									<a class="nav-link" href="{{ '/contact' | relative_url }}">Contact</a>
 								</li>
 							</ul>
-							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNav">
-								<span class="navbar-toggler-icon"></span>
-							</button>
 							<form class="d-flex">
 								<input class="form-control me-2" type="text" placeholder="Search...">
 								<button class="btn btn-primary" type="button">
