@@ -1,87 +1,80 @@
-<!-- Global Header -->
 <section id="global-header">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1 class="animate__animated animate__fadeIn">Our latest projects.</h1>
-          <p class="animate__animated animate__fadeIn">These are the projects that we have worked on or are currently working on. Click on an image for more info and pics.</p>
+          <h1 class="animate__animated animate__fadeIn">Our Projects</h1>
+          <p class="animate__animated animate__fadeIn">These are the projects that we have worked on or are currently working on.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 <!-- Portfolio Start -->
-<section id="projects">
+<section id="portfolio">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <div class="project-slider-filters">
-            <ul>
-              <li>
-                <button onclick="filter('all')">All</button>
-              </li>
-              <li>
-                <button onclick="filter('featured')">Featured</button>
-              </li>
-              <li>
-                <button onclick="filter('current')">Current</button>
-              </li>
-              <li>
-                <button onclick="filter('Past')">Past</button>
-              </li>
-            </ul>
+    <div class="col-md-12 text-center">
+      <div class="tabs">
+        <button class="btn filter" id="filt" href="" data-rel="all">All</button>
+        <button class="btn filter" id="filt" href="" data-rel="featured">Featured</button>
+        <button class="btn filter" id="filt" href="" data-rel="current">Current</button>
+        <button class="btn filter" id="filt" href="" data-rel="past">Past</button>
+      </div>
+      <div class="work">
+        <div class="row">
+          <div class="col-md-4 portfolio-item scale tile all current">
+            <a href="/assets/img/portfolio/work1.jpg">
+              <img class="img-fluid" src="{{ '/assets/img/portfolio/work1.jpg' | relative_url }}" alt="">
+            </a>
+            <a href="/assets/img/portfolio/work1.jpg">
+              <h2>Current Project 1</h2>
+            </a>
+            <p class="card_description">Labore et dolore magna aliqua. Ut enim ad</p>
           </div>
-          <div class="project-slider-container">
-            <ul class="slider-controls" id="customise-controls" aria-label="Carousel Navigation" tabindex="0">
-              <li class="prev" data-controls="prev" aria-controls="customize" tabindex="-1"></li>
-              <li class="next" data-controls="next" aria-controls="customize" tabindex="-1"></li>
-            </ul>
-            <div class="project-slider">
-              <div class="slider-item" data-type="current">
-                <div class="card">
-                  <img alt="" src="{{ '/assets/img/portfolio/work1.jpg' | relative_url }}">
-                  <h2>Tesla Motors</h2>
-                  <p class="card_description">Labore et dolore magna aliqua. Ut enim ad</p>
-                </div>
-              </div>
-              <div class="slider-item" data-type="past">
-                <div class="card">
-                  <img alt="" src="{{ '/assets/img/portfolio/work2.jpg' | relative_url }}">
-                  <h2>Tesla Motors</h2>
-                  <p>Labore et dolore magna aliqua. Ut enim ad</p>
-                </div>
-              </div>
-              <div class="slider-item" data-type="featured">
-                <div class="card">
-                  <img alt="" src="{{ '/assets/img/portfolio/work3.jpg' | relative_url }}">
-                  <h2>Tesla Motors</h2>
-                  <p>Labore et dolore magna aliqua. Ut enim ad</p>
-                </div>
-              </div>
-              <div class="slider-item" data-type="current">
-                <div class="card">
-                  <img alt="" src="{{ '/assets/img/portfolio/work4.jpg' | relative_url }}">
-                  <h2>Tesla Motors</h2>
-                  <p>Labore et dolore magna aliqua. Ut enim ad</p>
-                </div>
-              </div>
-              <div class="slider-item" data-type="featured">
-                <div class="card">
-                  <img alt="" src="{{ '/assets/img/portfolio/work5.jpg' | relative_url }}">
-                  <h2>Tesla Motors</h2>
-                  <p>Labore et dolore magna aliqua. Ut enim ad</p>
-                </div>
-              </div>
-              <div class="slider-item" data-type="past">
-                <div class="card">
-                  <img alt="" src="{{ '/assets/img/portfolio/work6.jpg' | relative_url }}">
-                  <h2>Tesla Motors</h2>
-                  <p>Labore et dolore magna aliqua. Ut enim ad</p>
-                </div>
-              </div>
-            </div>
+          <div class="col-md-4 portfolio-item scale tile all past">
+            <a href="/assets/img/portfolio/work2.jpg">
+              <img class="img-fluid" src="{{ '/assets/img/portfolio/work2.jpg' | relative_url }}" alt="">
+            </a>
+            <a href="/assets/img/portfolio/work2.jpg">
+              <h2>Past Project 1</h2>
+            </a>
+            <p>Labore et dolore magna aliqua. Ut enim ad</p>
+          </div>
+          <div class="col-md-4 portfolio-item scale tile all featured">
+            <a href="/assets/img/portfolio/work3.jpg">
+              <img class="img-fluid" src="{{ '/assets/img/portfolio/work3.jpg' | relative_url }}" alt="">
+            </a>
+            <a href="/assets/img/portfolio/work3.jpg">
+              <h2>Featured Project 1</h2>
+            </a>
+            <p>Labore et dolore magna aliqua. Ut enim ad</p>
+          </div>
+          <div class="col-md-4 portfolio-item scale tile all current">
+            <a href="/assets/img/portfolio/work4.jpg">
+              <img class="img-fluid" src="{{ '/assets/img/portfolio/work4.jpg' | relative_url }}" alt="">
+            </a>
+            <a href="/assets/img/portfolio/work4.jpg">
+              <h2>Current Project 2</h2>
+            </a>
+            <p>Labore et dolore magna aliqua. Ut enim ad</p>
+          </div>
+          <div class="col-md-4 portfolio-item scale tile all featured">
+            <a href="/assets/img/portfolio/work5.jpg">
+              <img class="img-fluid" src="{{ '/assets/img/portfolio/work5.jpg' | relative_url }}" alt="">
+            </a>
+            <a href="/assets/img/portfolio/work5.jpg">
+              <h2>Featured Project 2</h2>
+            </a>
+            <p>Labore et dolore magna aliqua. Ut enim ad</p>
+          </div>
+          <div class="col-md-4 portfolio-item scale tile all past">
+            <a href="/assets/img/portfolio/work6.jpg">
+              <img class="img-fluid" src="{{ '/assets/img/portfolio/work6.jpg' | relative_url }}" alt="">
+            </a>
+            <a href="/assets/img/portfolio/work6.jpg">
+              <h2>Past Project 2</h2>
+            </a>
+            <p>Labore et dolore magna aliqua. Ut enim ad</p>
           </div>
         </div>
       </div>
@@ -145,10 +138,9 @@
         <div class="block">
           <h2>We design delightful digital experiences.</h2>
           <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-          <a class="btn btn-default btn-call-to-action" href="#">Experience Our Stories</a>
+          <a class="btn btn-default btn-call-to-action" href="/staff">Experience Our Stories</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
