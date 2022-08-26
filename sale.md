@@ -1,10 +1,6 @@
 ---
-id: 1316
-title: 'Pioneer Aero |For Sale'
-date: '2012-10-11T23:53:33+13:00'
-author: Paul McSweeney
-layout: page
-guid: 'http://www.pioneeraero.co.nz/?page_id=1316'
+title: 'For Sale'
+layout: staff
 ---
 
 ![Book]({{ '/assets/uploads/2021/03/Go-Fast-or-Go-Home-FRONTCVR.jpg' | relative_url }})
