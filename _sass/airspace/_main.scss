@@ -6,13 +6,28 @@
  * 
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /* var text-decoration */
 /*--
 	Common CSS
 --*/
+:root {	
+	--main-background-color: #efefef;
+	--main-background-opacity: 0.1;
+	--main-background-pattern:  linear-gradient(135deg, #c4c4c4 25%, transparent 25%), linear-gradient(225deg, #c4c4c4 25%, transparent 25%), linear-gradient(45deg, #c4c4c4 25%, transparent 25%), linear-gradient(315deg, #c4c4c4 25%, #efefef 25%);
+	--main-background-position:  4px 0, 4px 0, 0 0, 0 0;
+	--main-background-size: 4px 4px;
+	--main-background-repeat: repeat;
+	--main-background:
+		var(--main-background-color)
+		var(--main-background-opacity)
+		var(--main-background-pattern)
+		var(--main-background-position)
+		var(--main-background-size)
+		var(--main-background-repeat);
+}
 body {
 	font-family: "Open Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -49,11 +64,11 @@ p {
 	font-size: 15px;
 	line-height: 28px;
 }
-// ul {
-// 	padding: 0;
-// 	margin: 0;
-// 	list-style: none;
-// }
+ul {
+	// padding: 0;
+	// margin: 0;
+	list-style: none;
+}
 a,
 a:active,
 a:focus,
@@ -90,9 +105,9 @@ header {
 }
 .d-flex {
 	padding-top: 10px;
-	margin-left: 1rem;
+	margin-left: 0.5rem;
 }
-.d-flex .form-control {
+.d-flex > form {
 	width: 12rem !important;
 }
 header .navbar {
@@ -118,10 +133,16 @@ header .navbar-light .navbar-nav {
 header .navbar-light .navbar-nav li a {
 	color: #333333;
 	padding: 10px 26px;
-	font-size: 15px;
+	font-size: 18px;
+	font-weight: 600;
 }
-font header .navbar-light .navbar-nav li a:hover {
+header .navbar-light .navbar-nav li a:hover {
 	color: #000;
+	background-color:rgba(0, 0, 0, 0.1)
+}
+header .navbar-light .navbar-nav li a:active {
+	color: rgb(167, 122, 122);
+	background-color:rgba(0, 0, 0, 0.2)
 }
 header .btn {
 	color: rgba(0, 0, 0, 0.7);
@@ -466,18 +487,18 @@ header .btn:hover {
 /*--
 	portfolio-work Start
 --*/
-#projects {
+#portfolio {
 	overflow: hidden;
-	padding: 80px 0;
+	padding: 1rem 0;
 }
-#projects .block .project-slider-filters {
+#portfolio .work{
 	text-align: center;
 }
-#projects .block .project-slider-filters ul {
+#portfolio .work ul {
 	border: 1px solid #999999;
 	display: inline-block;
 }
-#projects .block .project-slider-filters ul li {
+#portfolio .work ul li {
 	display: inline-block;
 	padding: 0px 25px;
 	cursor: pointer;
@@ -488,11 +509,11 @@ header .btn:hover {
 	text-transform: capitalize;
 	position: relative;
 }
-#projects .block .project-slider-filters ul .active {
+#portfolio .work ul .active {
 	color: #655e7a;
 	position: relative;
 }
-#projects .block .project-slider-filters ul .active:before {
+#portfolio .work ul .active:before {
 	content: "\f0d7";
 	position: absolute;
 	font-family: "FontAwesome";
@@ -512,7 +533,7 @@ header .btn:hover {
 	transition: all 0.4s ease-in-out;
 	pointer-events: none;
 }
-#projects .block .project-slider-filters ul li:hover:before {
+#portfolio .work ul li:hover:before {
 	content: "\f0d7";
 	position: absolute;
 	font-family: "FontAwesome";
@@ -532,17 +553,17 @@ header .btn:hover {
 	transition: all 0.4s ease-in-out;
 	pointer-events: none;
 }
-#projects .block .project-slider-container ul li {
+#portfolio .work .container ul li {
 	float: left;
 	width: 32.22%;
 	overflow: hidden;
 	margin: 6px;
 	position: relative;
 }
-#projects .block .project-slider-container ul li:hover .project-overlay {
+#portfolio .work .container ul li:hover .project-overlay {
 	opacity: 1;
 }
-#projects .block .project-slider-container ul li:hover .position-center {
+#portfolio .work .container ul li:hover .position-center {
 	position: absolute;
 	top: 50%;
 	-webkit-transform: translate(0%, -50%);
@@ -550,28 +571,28 @@ header .btn:hover {
 	-ms-transform: translate(0%, -50%);
 	transform: translate(0%, -50%);
 }
-#projects .block .project-slider-container ul li a {
+#portfolio .work .container ul li a {
 	display: block;
 	color: #fff;
 }
-#projects .block .project-slider-container ul li a h2 {
+#portfolio .work .container ul li a h2 {
 	font-size: 22px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-#projects .block .project-slider-container ul li a p {
+#portfolio .work .container ul li a p {
 	font-size: 15px;
 }
-#projects .block .project-slider-container ul li a span {
+#portfolio .work .container ul li a span {
 	font-style: italic;
 	font-size: 13px;
 	color: #655e7a;
 }
-#projects .block .project-slider-container ul img {
+#portfolio .work .container ul img {
 	width: 100%;
 	height: auto;
 }
-#projects .block .project-slider-container .project-overlay {
+#portfolio .work .container .project-overlay {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -584,7 +605,7 @@ header .btn:hover {
 	transition: 0.3s all;
 	text-align: center;
 }
-#projects .block .project-slider-container .position-center {
+#portfolio .work .container .position-center {
 	position: absolute;
 	top: 50%;
 	left: 10%;
@@ -596,11 +617,15 @@ header .btn:hover {
 	-o-transition: 0.5s all;
 	transition: 0.5s all;
 }
-#projects .block .mix {
+#portfolio .work.mix {
 	display: none;
 }
 .tabs {
-	padding: 1rem;
+	padding-bottom: 1rem;
+}
+.staff img {
+	width: 216px;
+	padding: 1rem 0;
 }
 /*--
 	wrapper-work Start
@@ -682,14 +707,14 @@ header .btn:hover {
     margin: .5rem;
 }
 .project-slider-filters button{
-    background-color: #FFF; 
-  border: none;
-  color: rgba(0, 0, 0, 0.7);;
-  padding: 0px 0px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+    background-color: #fff; 
+  	border: none;
+  	color: rgba(0, 0, 0, 0.7);;
+  	padding: 0px 0px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
     
 }
 /** filters:end **/
