@@ -4,7 +4,9 @@ layout: staff
 categories: Staff
 ---
 
-**Engineer**
+## Engineer
+
+![Allen House]({{ '/assets/img/staff/allen-house.jpg' | relative_url }})
 
 Allen is Trade qualified in fitting, turning and machining. Prior to starting at Pioneer Aero in 2012 Allen worked on ex NZR steam locomotives, as a mechanical engineer for Tranz Rail and in the general engineering and sheet metal sector.
 

@@ -4,7 +4,9 @@ layout: staff
 categories: Staff
 ---
 
-**Engineer**
+## Engineer
+
+![William Lowen]({{ '/assets/img/staff/william-lowen.jpg' | relative_url }})
 
 William started work at Pioneer Aero Restorations in late 2006 after completing an Air New Zealand aircraft engineering course.
 

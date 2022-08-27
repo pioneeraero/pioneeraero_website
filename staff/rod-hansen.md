@@ -4,4 +4,6 @@ layout: staff
 categories: Staff
 ---
 
-**Engineer**
+## Engineer
+
+![Rod Hansen]({{ '/assets/img/staff/rod-hansen.jpg' | relative_url }})

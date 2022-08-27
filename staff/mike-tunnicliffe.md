@@ -4,4 +4,6 @@ layout: staff
 categories: Staff
 ---
 
-**Engineer**
+## Engineer
+
+![Mike Tunnicliffe]({{ '/assets/img/staff/mike-tunnicliffe.jpg' | relative_url }})

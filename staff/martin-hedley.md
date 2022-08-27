@@ -4,7 +4,9 @@ layout: staff
 categories: Staff
 ---
 
-**Chief Engineer**
+## Chief Engineer
+
+![Martin Hedley]({{ '/assets/img/staff/martin-hedley.jpg' | relative_url }})
 
 Martin began his aviation career straight out of school by joining the RNZAF in June 1994. He served for 7 1/2 years working mostly on the A-4K Skyhawks.
 

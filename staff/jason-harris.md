@@ -4,4 +4,6 @@ layout: staff
 categories: Staff
 ---
 
-**Painter**
+## Painter
+
+![Jason Harris]({{ '/assets/img/staff/jason-harris.jpg' | relative_url }})

@@ -4,7 +4,9 @@ layout: staff
 categories: Staff
 ---
 
-**Engineer (Avionics)**
+## Engineer (Avionics)
+
+![Ken O'Halloran]({{ '/assets/img/staff/ken-ohalloran.jpg' | relative_url }})
 
 Ken's father flew Spitfires during WW2 and later Mustangs for the RNZAF as a TAF pilot. Ken's mother was a WAAF U.K. during WW2, so aviation was in the blood.
 

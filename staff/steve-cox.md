@@ -4,7 +4,9 @@ layout: staff
 categories: Staff
 ---
 
-**Director (Engineering)**
+## Director (Engineering)
+
+![Steve Cox]({{ '/assets/img/staff/steve-cox.jpg' | relative_url }})
 
 Steven has been an engineer since leaving school and has always had an interest in aviation, he was able to combine the two when he joined the staff of Pioneer Aero Restorations in 2003.
 

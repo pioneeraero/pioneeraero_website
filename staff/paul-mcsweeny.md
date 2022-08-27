@@ -4,7 +4,9 @@ layout: staff
 categories: Staff
 ---
 
-**Director (Management)**
+## Director (Management)
+
+![Paul McSweeny]({{ '/assets/img/staff/paul-mcsweeny.jpg' | relative_url }})
 
 Paul started at Pioneer in November 2001 as Operations Manager and in August 2009 with Steven Cox took the business over.
 

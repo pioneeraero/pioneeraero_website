@@ -4,7 +4,9 @@ layout: staff
 categories: Staff
 ---
 
-**Engineer**
+## Engineer
+
+![Les Wilson]({{ '/assets/img/staff/les-wilson.jpg' | relative_url }})
 
 Les has had a lifetime involvement in aviation, having a father who was WW2 aircrew and an Ag pilot in the 1950s ignited this passion.
 
