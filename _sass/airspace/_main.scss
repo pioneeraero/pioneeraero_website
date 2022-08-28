@@ -14,19 +14,11 @@
 	Common CSS
 --*/
 :root {	
-	--main-background-color: #efefef;
-	--main-background-opacity: 0.1;
-	--main-background-pattern:  linear-gradient(135deg, #c4c4c4 25%, transparent 25%), linear-gradient(225deg, #c4c4c4 25%, transparent 25%), linear-gradient(45deg, #c4c4c4 25%, transparent 25%), linear-gradient(315deg, #c4c4c4 25%, #efefef 25%);
+	--main-background-color: rgba(196, 196, 196, 0.3);
+	--main-background-image: linear-gradient(45deg, transparent 49%, rgba(165, 165, 165, 0.1), transparent 51%), linear-gradient(-45deg, transparent 49%, rgba(165, 165, 165, 0.1), transparent 51%);
 	--main-background-position:  4px 0, 4px 0, 0 0, 0 0;
-	--main-background-size: 4px 4px;
+	--main-background-size: 13px 13px;
 	--main-background-repeat: repeat;
-	--main-background:
-		var(--main-background-color)
-		var(--main-background-opacity)
-		var(--main-background-pattern)
-		var(--main-background-position)
-		var(--main-background-size)
-		var(--main-background-repeat);
 }
 body {
 	font-family: "Open Sans", sans-serif;
@@ -100,7 +92,11 @@ a:active {
 	Header Start
 --*/
 header {
-	background: #fff;
+	background-color: var(--main-background-color);
+	background-image: var(--main-background-image);
+	background-position: var(--main-background-position);
+	background-size: var(--main-background-size);
+	background-repeat: var(--main-background-repeat);
 	padding: 0.1rem;
 }
 .d-flex {
@@ -140,7 +136,7 @@ header .navbar-light .navbar-nav li a:hover {
 	color: #000;
 	background-color:rgba(0, 0, 0, 0.1)
 }
-header .navbar-light .navbar-nav li a:active {
+header .navbar-light .navbar-nav li :active > a {
 	color: rgb(167, 122, 122);
 	background-color:rgba(0, 0, 0, 0.2)
 }
@@ -203,6 +199,11 @@ header .btn:hover {
 	intro wrapper Start
 --*/
 #intro {
+	background-color: var(--main-background-color);
+	background-image: var(--main-background-image);
+	background-position: var(--main-background-position);
+	background-size: var(--main-background-size);
+	background-repeat: var(--main-background-repeat);
 	padding: 100px 0;
 }
 #intro .block h2 {
@@ -251,6 +252,11 @@ header .btn:hover {
 	service Start
 --*/
 #service {
+	background-color: var(--main-background-color);
+	background-image: var(--main-background-image);
+	background-position: var(--main-background-position);
+	background-size: var(--main-background-size);
+	background-repeat: var(--main-background-repeat);
 	text-align: center;
 	padding: 90px 0;
 }
@@ -488,6 +494,11 @@ header .btn:hover {
 	portfolio-work Start
 --*/
 #portfolio {
+	background-color: var(--main-background-color);
+	background-image: var(--main-background-image);
+	background-position: var(--main-background-position);
+	background-size: var(--main-background-size);
+	background-repeat: var(--main-background-repeat);
 	overflow: hidden;
 	padding: 1rem 0;
 }
@@ -668,7 +679,11 @@ header .btn:hover {
 	bottom: 0;
 	width: 75px;
 	height: 3px;
-	background: #fff;
+	background-color: var(--main-background-color);
+	background-image: var(--main-background-image);
+	background-position: var(--main-background-position);
+	background-size: var(--main-background-size);
+	background-repeat: var(--main-background-repeat);
 	pointer-events: none;
 }
 #wrapper-work ul li .items-text p {
@@ -764,7 +779,11 @@ header .btn:hover {
     margin: 0 auto;
     max-width: 200px;       
     color: #333;
-    background: white;
+	background-color: var(--main-background-color);
+	background-image: var(--main-background-image);
+	background-position: var(--main-background-position);
+	background-size: var(--main-background-size);
+	background-repeat: var(--main-background-repeat);
     border-radius: 5px;
     padding-bottom: .75rem;
     font-family: sans-serif;
@@ -966,7 +985,11 @@ header .btn:hover {
 	footer Start
 --*/
 footer {
-	background: #f5f5f5;
+	background-color: var(--main-background-color);
+	background-image: var(--main-background-image);
+	background-position: var(--main-background-position);
+	background-size: var(--main-background-size);
+	background-repeat: var(--main-background-repeat);
 	text-align: center;
 	padding-top: 48px;
 	padding-bottom: 55px;
