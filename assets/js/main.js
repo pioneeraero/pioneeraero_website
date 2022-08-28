@@ -29,6 +29,16 @@ document.addEventListener("DOMContentLoaded", () => {
             console[method] = noop;
         }
     }
-}
+} 
+    // Add active class to navbar
+    let activeLinks = document.getElementById("nav").getElementsByTagName("a"),
+        i=0, len=activeLinks.length,
+        activePath = location.href.split('#')[0]; //Ignore hashes
 
+    // Loop through each link
+    for(; i<len; i++) {
+        if(activeLinks[i].href.split("#")[0] == activePath) {
+            activeLinks[i].className += " "+"active";
+        }
+    }
 });
