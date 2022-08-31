@@ -248,6 +248,13 @@ header .btn:hover {
 #news .section-title p {
 	padding-top: 20px;
 }
+.taxonomy__index, .taxonomy__section {
+	background-color: var(--main-background-color);
+	background-image: var(--main-background-image);
+	background-position: var(--main-background-position);
+	background-size: var(--main-background-size);
+	background-repeat: var(--main-background-repeat);
+}
 /*--
 	service Start
 --*/
