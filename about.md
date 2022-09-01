@@ -1,23 +1,6 @@
 ---
 layout: page
 title: 'About'
-permalink: /about/
 ---
 
-**Pioneer Aero – Pioneer Aero Restorations – Pacific Aircraft.**
-
-Pacific Aircraft had been formed in the early 1990s with the specific aim of restoring the Curtiss P-40 series of aircraft. The first aircraft completed was a static P-40E for the Museum of Transport &amp; Technology (MOTAT) in Auckland, New Zealand. While the work on the MOTAT aircraft was proceeding, the restoration of Ray Hanna’s P-40E NZ3009 was also in progress.
-
-In 1995 another project, a P-40N5, was begun and in April 1997 as the work on the Hanna P-40E was coming to a conclusion, a further project, the Darby-Hogan P-40N1, was started. Unfortunately in June 1997 the directors of Pacific Aircraft decided to cease trading. This left the jobs, as yet uncompleted, in limbo. At this time, Garth Hogan purchased the assets of Pacific Aircraft, hired the remaining staff, took over the lease on the building and Pioneer Aero Restorations Ltd was in business.
-
-Initially the intention was only to complete the Darby-Hogan P-40N to airworthy status, however, very early in the piece Pioneer was contacted by Ray Hanna with a request to complete the almost finished NZ3009. This was agreed to and Pioneer staff completed this aircraft to flying condition. The P-40N5 in the shop was subject to litigation (not involving Pioneer) and eventually was sold by tender and shipped to California. This left just the Darby-Hogan aircraft to be completed, however … Dick Thurman of Louisville, Kentucky then contacted Pioneer enquiring as to the interest in rebuilding the P-40K that was owned by the Alpine Fighter Collection and had been badly damaged in an accident at Wanaka. Pioneer confirmed an interest and when Dick’s bid for the aircraft was successful, a contract was entered into with the aim of having it ready to fly for the Warbirds Over Wanaka airshow at Easter 2000.
-
-At the same time a joint venture relationship was entered into with Warren and Colin Denholm at Avspecs Ltd, then based in Rotorua, New Zealand. The work on the ‘K’ model proceeded with the structural rebuild completed by Pioneer in Auckland and the systems and assembly work done at Avspecs. While the K model was being fitted out at Avspecs, the N model was receiving the same in the Pioneer workshop and both flew in early 2000 and both debuting at Warbirds Over Wanaka 2000. Subsequent to this restoration, additional work was forthcoming from the UK, USA and Australia. At that time Avspecs decided to move to Auckland, and in due course a hangar was purchased at Ardmore Airfield, Auckland. It was renovated and both companies moved in December 2000. Work then proceeded on individual projects and joint venture restorations until Avspecs moved on to their own premises in January 2003.
-
-Pioneer has since completed rebuilding the Lavochkin LA-9 and as an on going joint venture the Banta Aviation Corp P-40E has been finished and flew at Warbirds Over Wanaka 2002 and Jerry Yagens P-40E flew in March 2003. The wings of Judy Pay’s P-40F that where completed by Pioneer and are now fitted to Judy’s fuselage that was restored in her own facility and this aircraft is now flying.
-
-Following on from these aircraft restoration to flying condition has been completed on the Yak 3 which is now owned by Arthur Dovey of Wanaka and three more P-40 Kittyhawks for Allan Arthur of Albury New South Wales , Craig Schulz of Santa Rosa California and Vintage Wings of Canada. Also completed during this time in our facility was the complete mainplane assembly for the Hawk 75 now flying at Duxford.
-
-In August of 2009 ownership of the company transfered from Garth Hogan to Steven Cox and Paul McSweeny and since then it has been business as usual.
-
-As well as full restorations Pioneer has also over the years continued to service and maintain a variety of othe aircraft including P40 Kittyhawk,T6 Harvards, P51 Mustang, F4 Corsair, CT4 Airtrainer, BAC 167 Strikemaster and Yak 52.
+{% include about.html %}
