@@ -1,9 +1,10 @@
 ---
 title: 'For Sale'
-layout: staff
+layout: page
 ---
 
 ![Book]({{ '/assets/uploads/2021/03/Go-Fast-or-Go-Home-FRONTCVR.jpg' | relative_url }})
+
 A bit of our history… “Go Fast or Go Home”, the book.
 
 The original owner of Pioneer was Garth Hogan, who established the company in the mid 1990’s to complete the restoration of P40N1 “Currawong”, after the initial restoration company Pacific Aircraft folded. Subsequent to that further projects were undertaken, and the company grew to the world recognised establishment that it is, albeit now in the hands of Paul McSweeny and Steve Cox who acquired the company around 10 years ago.
