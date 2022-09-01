@@ -9,10 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-/* var text-decoration */
-/*--
-	Common CSS
---*/
+/*-- Common CSS --*/
 :root {	
 	--main-background-color: rgba(196, 196, 196, 0.3);
 	--main-background-image: linear-gradient(45deg, transparent 49%, rgba(165, 165, 165, 0.1), transparent 51%), linear-gradient(-45deg, transparent 49%, rgba(165, 165, 165, 0.1), transparent 51%);
@@ -30,11 +27,11 @@ body a {
 }
 body a:hover {
 	color: #000;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 h1,
 h2,
@@ -88,9 +85,7 @@ a:active {
 	font-size: 36px;
 	font-weight: 600;
 }
-/*--
-	Header Start
---*/
+/*-- Header --*/
 header {
 	background-color: var(--main-background-color);
 	background-image: var(--main-background-image);
@@ -152,12 +147,19 @@ header .btn:hover {
 	background-color: transparent;
 	border-color: transparent;
 }
+/*-- Thumbnails --*/
+  a:hover .img-fluid {
+	box-shadow: 0 10px 20px rgba(0,0,0,.2), 0 4px 8px rgba(0,0,0,.1);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
 /*---------------------------------------------
-					Index Start
+					Index
 -----------------------------------------------*/
-/*--
-	Slider Start
---*/
+/*-- Slider --*/
 #slider {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/slider-bg.jpg") no-repeat;
 	background-size: cover;
@@ -195,9 +197,7 @@ header .btn:hover {
 	font-weight: 300;
 	letter-spacing: 3px;
 }
-/*--
-	intro wrapper Start
---*/
+/*-- intro wrapper --*/
 #intro {
 	background-color: var(--main-background-color);
 	background-image: var(--main-background-image);
@@ -225,7 +225,7 @@ header .btn:hover {
 #intro .section-title p {
 	padding-top: 20px;
 }
-/*-- news wrapper Start --*/
+/*-- news wrapper --*/
 #news {
 	padding: 0;
 }
@@ -255,9 +255,7 @@ header .btn:hover {
 	background-size: var(--main-background-size);
 	background-repeat: var(--main-background-repeat);
 }
-/*--
-	service Start
---*/
+/*-- Service --*/
 #service {
 	background-color: var(--main-background-color);
 	background-image: var(--main-background-image);
@@ -286,9 +284,7 @@ header .btn:hover {
 	font-size: 14px;
 	line-height: 1.8;
 }
-/*--
-	call-to-action Start
---*/
+/*-- call-to-action --*/
 #call-to-action {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/call-to-action-bg.jpg") no-repeat;
 	background-size: cover;
@@ -328,9 +324,7 @@ header .btn:hover {
 	color: #333333;
 	margin-top: 30px;
 }
-/*--
-	Feature Start
---*/
+/*-- Feature --*/
 #feature {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/featue-bg.jpg");
 	width: 100%;
@@ -367,9 +361,7 @@ header .btn:hover {
 	color: #fff;
 	padding: 10px 20px;
 }
-/*--
-	content Start
---*/
+/*-- content --*/
 #testimonial {
 	padding: 100px 0;
 }
@@ -442,9 +434,7 @@ header .btn:hover {
 	display: inline-block;
 	border: 0px;
 }
-/*--
-	features Start
---*/
+/*-- features --*/
 #clients-logo-section {
 	padding-top: 30px;
 	padding-bottom: 75px;
@@ -453,11 +443,9 @@ header .btn:hover {
 	padding: 0px 50px;
 }
 /*---------------------------------------------
-					Work Start
+					Work
 -----------------------------------------------*/
-/*--
-	Slider-work Start
---*/
+/*-- Slider-work --*/
 #global-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/slider-bg.jpg") no-repeat;
 	background-size: cover;
@@ -497,9 +485,7 @@ header .btn:hover {
 	letter-spacing: 1px;
 	word-spacing: 3px;
 }
-/*--
-	portfolio-work Start
---*/
+/*-- portfolio-work --*/
 #portfolio {
 	background-color: var(--main-background-color);
 	background-image: var(--main-background-image);
@@ -645,9 +631,7 @@ header .btn:hover {
 	width: 216px;
 	padding: 1rem 0;
 }
-/*--
-	wrapper-work Start
---*/
+/*-- wrapper-work --*/
 #wrapper-work {
 	overflow: hidden;
 	padding-top: 100px;
@@ -700,9 +684,7 @@ header .btn:hover {
 	font-weight: 300;
 	padding-right: 80px;
 }
-/*--
-	features-work Start
---*/
+/*-- features-work --*/
 #features-work {
 	padding-top: 50px;
 	padding-bottom: 75px;
@@ -818,15 +800,9 @@ header .btn:hover {
     }
 }
 /*---------------------------------------------
-					Work Close
+					 Contact
 -----------------------------------------------*/
-/*=============================================*/
-/*---------------------------------------------
-					 Contact Start
------------------------------------------------*/
-/*--
-	slider-contact Start
---*/
+/*-- slider-contact --*/
 #slider-contact {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/slider-bg.jpg") no-repeat;
 	background-size: cover;
@@ -867,9 +843,7 @@ header .btn:hover {
 	letter-spacing: 1px;
 	word-spacing: 3px;
 }
-/*--
-	contact-form Start
---*/
+/*-- contact-form --*/
 #contact-form {
 	padding-top: 70px;
 	padding-bottom: 35px;
@@ -905,9 +879,7 @@ header .btn:hover {
 	font-family: "Open Sans", sans-serif;
 	font-size: 18px;
 }
-/*--
-	wrapper-contact Start
---*/
+/*-- wrapper-contact --*/
 .address-block li {
 	margin-bottom: 20px;
 }
@@ -954,9 +926,7 @@ header .btn:hover {
 	color: #5c5c5c;
 	display: block;
 }
-/*--
-	features-contact Start
---*/
+/*-- features-contact --*/
 #features-contact {
 	padding-top: 50px;
 	padding-bottom: 75px;
@@ -967,10 +937,7 @@ header .btn:hover {
 	display: inline-block;
 	padding: 40px 0px;
 }
-/*---------------------------------------------
-					Contact Close
------------------------------------------------*/
-/*--------- Heading------------*/
+/*-- Heading --*/
 .heading {
 	padding-bottom: 60px;
 	text-align: center;
@@ -987,10 +954,7 @@ header .btn:hover {
 	color: #292929;
 	font-weight: 300;
 }
-/*---------------------------*/
-/*--
-	footer Start
---*/
+/*-- Footer --*/
 footer {
 	background-color: var(--main-background-color);
 	background-image: var(--main-background-image);
