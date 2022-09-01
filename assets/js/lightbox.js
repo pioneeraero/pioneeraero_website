@@ -108,6 +108,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     //remove the clicked lightbox
     document.getElementById('lightbox').addEventListener("click", function(event) {
+        if (event.target !== event.currentTarget && event.target.id !== 'close') return
         if(event.target.id != 'next' && event.target.id != 'prev'){
             this.innerHTML = '';
             document.getElementById('lightbox').style.display = 'none';
