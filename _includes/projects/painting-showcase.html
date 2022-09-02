@@ -1,0 +1,23 @@
+<section class="painting-showcase-header" id="global-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1 class="animate__animated animate__fadeIn">{{ page.title }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="portfolio">
+    <div class="container">
+        <div class="work">
+            <div class="row">
+                {% include gallery.html folder="/assets/img/projects/painting-showcase" %}
+            </div>
+        </div>
+        <div class="col-md-8 offset-md-2">
+            <p>This page is just to showcase the “other” painting jobs we carry out.</p>
+        </div>
+    </div>
+</section>
