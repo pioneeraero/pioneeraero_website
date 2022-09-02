@@ -1,6 +1,6 @@
 ---
-layout: posts
 title: News
+layout: posts
 ---
 
 {% include sidebar.html %}
