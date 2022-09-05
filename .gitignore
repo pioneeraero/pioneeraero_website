@@ -1,6 +1,7 @@
 *.code-workspace
 .bundle
 .DS_Store
+.eslintrc
 .jekyll-metadata
 .sass-cache
 Gemfile.lock
