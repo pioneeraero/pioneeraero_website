@@ -69,20 +69,27 @@ document.addEventListener("DOMContentLoaded", () => {
 	let slider = tns({
 		container: ".carousel-container",
 		loop: true,
-		items: 1,
+		items: 3,
 		slideBy: "page",
 		edgePadding: -15,
 		gutter: 0,
 		nav: false,
+		navPosition: "bottom",
 		autoplay: false,
+		autoHeight: true,
 		autoplayButtonOutput: false,
 		mouseDrag: true,
+		arrowKeys: true,
 		controlsContainer: "#carousel-controls",
+		// controlsText: ['<', '>'],
 		prevButton: ".prev",
 		nextButton: ".next",
 		responsive: {
-			640: {
+			360: {
 				items: 3
+			},
+			640: {
+				items: 4
 			},
 
 			768: {
