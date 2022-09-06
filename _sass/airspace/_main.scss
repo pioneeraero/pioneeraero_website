@@ -65,6 +65,10 @@ a:focus,
 a:active {
 	text-decoration: none !important;
 }
+hr {
+	height: 3px;
+	color: rgba(165, 165, 165, 0.8);
+}
 .section-title {
 	margin-bottom: 70px;
 }
@@ -789,6 +793,115 @@ button.btn.filter {
 		transition: all 0.2s ease-in-out;
 	}
 }
+/*-- Gallery Carousel --*/
+// Carousel outer (wrapper)
+.carousel-wrapper {    
+    max-width: 1280px;
+    padding: 0 5rem;
+    margin: 0 auto 0 auto;
+    border-radius: 5px;    
+    position:relative;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: black;
+    }
+}
+// Carousel inner (container)
+.carousel-container {
+    position: relative;
+	display: flex;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+}
+// Carousel items
+.carousel-slide {
+    border: 1px solid rgba(139, 134, 163, 0.8);
+    position: relative;
+	aspect-ratio: 4 / 3;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: black;
+    }
+    &:hover, 
+	&:focus {
+        cursor: pointer;
+    }
+	img {
+		display: inline-block;
+		vertical-align: middle;
+		max-width: 100%;
+	}
+}
+// Carousel card layout
+.card {
+    text-align: center;    
+    margin: 0 auto;
+    max-width: 200px;       
+    color: #333;
+	background-color: var(--main-background-color);
+	background-image: var(--main-background-image);
+	background-position: var(--main-background-position);
+	background-size: var(--main-background-size);
+	background-repeat: var(--main-background-repeat);
+    border-radius: 5px;
+    padding-bottom: .75rem;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 2px 2px rgba(black, .3);
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        color: black;
+    }
+    img {
+        margin-bottom: .25rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+        margin: 0 0 .25rem;
+    }
+    p {
+        margin: 0;
+        padding: 0 .5rem;
+        font-size:0.8rem;
+    }
+}
+// Carousel controls
+#carousel-controls
+{
+	font-size: 2rem;
+	color: #000;
+	display: inline-flex;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	cursor: pointer;
+	.next {
+		padding-left: 1rem;
+		line-height: 5;
+	}
+	.prev {
+		padding-right: 1rem;
+		line-height: 5;
+	}
+	&:hover, 
+	&:focus {
+		color: #494949;
+		-webkit-transition: all 0.1s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out;
+		-o-transition: all 0.1s ease-in-out;
+		-ms-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;
+	}
+}
 /*-- wrapper-work --*/
 #wrapper-work {
 	overflow: hidden;
@@ -852,110 +965,6 @@ button.btn.filter {
 	text-align: center;
 	display: inline-block;
 	padding: 40px 0px;
-}
-/** filters:init **/
-// .project-slider-filters {
-//     width: 100%;
-//     margin: 0 auto;
-// }
-// .project-slider-filters ul {
-//     margin: 0;
-//     padding: 0;
-//     list-style-type: none;
-//     display: flex;
-//     justify-content: center;
-// }
-// .project-slider-filters ul li {
-//     margin: .5rem;
-// }
-// .project-slider-filters button{
-//     background-color: #fff; 
-//   	border: none;
-//   	color: rgba(0, 0, 0, 0.7);;
-//   	padding: 0px 0px;
-//   	text-align: center;
-//   	text-decoration: none;
-//   	display: inline-block;
-//   	font-size: 16px;
-    
-// }
-/** filters:end **/
-.project-slider-container {    
-    max-width: 1000px;
-    padding: 2rem 3rem;
-    background: #e6e6e6;
-    margin: 2rem auto 0 auto;
-    overflow: hidden;
-    border-radius: 5px;    
-    position:relative;
-    &:before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        color: black;
-    }
-}
-// img {
-//     display: inline-block;
-//     vertical-align: top;
-//     max-width: 100%;
-// }
-.project-slider {
-    position: relative;    
-}
-.slider-item {
-    background: grey;
-    border-right: 2px solid #333;
-    padding: 1.5rem .75rem;
-    position: relative;
-    &:before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        color: black;
-    }
-    &:hover, 
-	&:focus {
-        cursor: pointer;
-    }
-}
-.card {
-    text-align: center;    
-    margin: 0 auto;
-    max-width: 200px;       
-    color: #333;
-	background-color: var(--main-background-color);
-	background-image: var(--main-background-image);
-	background-position: var(--main-background-position);
-	background-size: var(--main-background-size);
-	background-repeat: var(--main-background-repeat);
-    border-radius: 5px;
-    padding-bottom: .75rem;
-    font-family: sans-serif;
-    overflow: hidden;
-    box-shadow: 2px 2px rgba(black, .3);
-    position: relative;
-    &:before {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        color: black;
-    }
-    img {
-        margin-bottom: .25rem;
-    }
-    
-    h2 {
-        font-size: 1.2rem;
-        margin: 0 0 .25rem;
-    }
-    p {
-        margin: 0;
-        padding: 0 .5rem;
-        font-size:0.8rem;
-    }
 }
 /*---------------------------------------------
 					 Contact
