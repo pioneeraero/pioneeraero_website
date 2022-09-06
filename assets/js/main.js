@@ -106,23 +106,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Check for YouTube link
 	function is_youtubelink(url) {
-		var p = /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+		let p = /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
 		return url.match(p) ? RegExp.$1 : false;
 	}
 	// Check for image link
 	function is_imagelink(url) {
-		var p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))/i;
+		let p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))/i;
 		return url.match(p) ? true : false;
 	}
 	// Check for Vimeo Link
 	function is_vimeolink(url, el) {
-		var id = false;
-		var xmlhttp = new XMLHttpRequest();
+		let id = false;
+		let xmlhttp = new XMLHttpRequest();
 		xmlhttp.onreadystatechange = function () {
 			if (xmlhttp.readyState == XMLHttpRequest.DONE) {
 				// XMLHttpRequest.DONE == 4
 				if (xmlhttp.status == 200) {
-					var response = JSON.parse(xmlhttp.responseText);
+					let response = JSON.parse(xmlhttp.responseText);
 					id = response.video_id;
 					console.log(id);
 					el.classList.add("lightbox-vimeo");
@@ -146,12 +146,12 @@ document.addEventListener("DOMContentLoaded", () => {
 		xmlhttp.send();
 	}
 	function setGallery(el) {
-		var elements = document.body.querySelectorAll(".gallery");
+		let elements = document.body.querySelectorAll(".gallery");
 		elements.forEach((element) => {
 			element.classList.remove("gallery");
 		});
 		if (el.closest("ul, p")) {
-			var link_elements = el.closest("ul, p").querySelectorAll("a[class*='lightbox-']");
+			let link_elements = el.closest("ul, p").querySelectorAll("a[class*='lightbox-']");
 			link_elements.forEach((link_element) => {
 				link_element.classList.remove("current");
 			});
@@ -166,15 +166,15 @@ document.addEventListener("DOMContentLoaded", () => {
 					link_element.classList.add("gallery");
 				});
 			}
-			var currentkey;
-			var gallery_elements = document.querySelectorAll("a.gallery");
+			let currentkey;
+			let gallery_elements = document.querySelectorAll("a.gallery");
 			Object.keys(gallery_elements).forEach(function (k) {
 				if (gallery_elements[k].classList.contains("current")) currentkey = k;
 			});
-			if (currentkey == gallery_elements.length - 1) var nextkey = 0;
-			else var nextkey = parseInt(currentkey) + 1;
-			if (currentkey == 0) var prevkey = parseInt(gallery_elements.length - 1);
-			else var prevkey = parseInt(currentkey) - 1;
+			if (currentkey == gallery_elements.length - 1) nextkey = 0;
+			else nextkey = parseInt(currentkey) + 1;
+			if (currentkey == 0) prevkey = parseInt(gallery_elements.length - 1);
+			else prevkey = parseInt(currentkey) - 1;
 			document.getElementById("next").addEventListener("click", function () {
 				gallery_elements[nextkey].click();
 			});
@@ -184,14 +184,14 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 	}
 	// Create lightbox div in the footer
-	var newdiv = document.createElement("div");
+	let newdiv = document.createElement("div");
 	newdiv.setAttribute("id", "lightbox");
 	document.body.appendChild(newdiv);
 
 	// Add classes to links to be able to initiate lightboxes
-	var elements = document.querySelectorAll("a");
+	elements = document.querySelectorAll("a");
 	elements.forEach((element) => {
-		var url = element.getAttribute("href");
+		let url = element.getAttribute("href");
 		if (url) {
 			if (url.indexOf("vimeo") !== -1 && !element.classList.contains("no-lightbox")) {
 				is_vimeolink(url, element);
@@ -202,10 +202,10 @@ document.addEventListener("DOMContentLoaded", () => {
 			}
 			if (is_imagelink(url) && !element.classList.contains("no-lightbox")) {
 				element.classList.add("lightbox-image");
-				var href = element.getAttribute("href");
-				var filename = href.split("/").pop();
-				var split = filename.split(".");
-				var name = split[0];
+				let href = element.getAttribute("href");
+				let filename = href.split("/").pop();
+				let split = filename.split(".");
+				let name = split[0];
 				element.setAttribute("title", name);
 			}
 		}
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 
 	// Add the YouTube lightbox on click
-	var elements = document.querySelectorAll("a.lightbox-youtube");
+	elements = document.querySelectorAll("a.lightbox-youtube");
 	elements.forEach((element) => {
 		element.addEventListener("click", function (event) {
 			event.preventDefault();
@@ -233,7 +233,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 
 	// Add the image lightbox on click
-	var elements = document.querySelectorAll("a.lightbox-image");
+	elements = document.querySelectorAll("a.lightbox-image");
 	elements.forEach((element) => {
 		element.addEventListener("click", function (event) {
 			if (dragMove == true) return;
