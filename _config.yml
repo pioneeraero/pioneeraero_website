@@ -43,12 +43,14 @@ thumbsurl: "/assets/img/clients/"
 exclude:
   - "*.code-workspace"
   - "*.gemspec"
+  - "/contact-form/"
   - "/docs/"
-  - "Gemfile.lock"
   - "Gemfile"
+  - "Gemfile.lock"
   - "LICENSE.md"
   - "node_modules"
   - "README.md"
+  - "reverse_markdown"
 
 # Always include in processing
 keep_files:

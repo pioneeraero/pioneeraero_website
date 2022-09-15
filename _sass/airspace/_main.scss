@@ -10,10 +10,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /*-- Common CSS --*/
-:root {	
+:root {
 	--main-background-color: rgba(196, 196, 196, 0.3);
 	--main-background-image: linear-gradient(45deg, transparent 49%, rgba(165, 165, 165, 0.1), transparent 51%), linear-gradient(-45deg, transparent 49%, rgba(165, 165, 165, 0.1), transparent 51%);
-	--main-background-position:  4px 0, 4px 0, 0 0, 0 0;
+	--main-background-position: 4px 0, 4px 0, 0 0, 0 0;
 	--main-background-size: 13px 13px;
 	--main-background-repeat: repeat;
 }
@@ -24,7 +24,7 @@ body {
 body a {
 	color: #000;
 	text-decoration: none;
-	&:hover, 
+	&:hover,
 	&:focus {
 		color: #494949;
 		-webkit-transition: all 0.2s ease-in-out;
@@ -126,16 +126,16 @@ header .navbar-light {
 header .navbar-light .navbar-nav {
 	padding-top: 10px;
 }
-.navbar-light .navbar-nav .nav-link, 
+.navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav > .nav-link {
 	color: #000 !important;
 	padding: 10px 26px;
 	font-size: 18px;
 	font-weight: 500;
-	&:hover, 
+	&:hover,
 	&:focus {
 		color: #494949 !important;
-		background-color:rgba(0, 0, 0, 0.1);
+		background-color: rgba(0, 0, 0, 0.1);
 	}
 	&.active {
 		color: #000 !important;
@@ -148,7 +148,7 @@ header .btn {
 	border-color: transparent;
 	font-size: 1.2rem;
 	padding: 0 0.3rem;
-	&:hover, 
+	&:hover,
 	&:focus {
 		color: #494949;
 		background-color: transparent;
@@ -156,8 +156,8 @@ header .btn {
 	}
 }
 /*-- Thumbnails --*/
-   a.img-fluid:hover {
-	box-shadow: 0 10px 20px rgba(0,0,0,.2), 0 4px 8px rgba(0,0,0,.1);
+a.img-fluid:hover {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -256,7 +256,8 @@ header .btn {
 #news .section-title p {
 	padding-top: 20px;
 }
-.taxonomy__index, .taxonomy__section {
+.taxonomy__index,
+.taxonomy__section {
 	background-color: var(--main-background-color);
 	background-image: var(--main-background-image);
 	background-position: var(--main-background-position);
@@ -612,7 +613,7 @@ header .btn {
 	overflow: hidden;
 	padding: 1rem 0;
 }
-#portfolio .work{
+#portfolio .work {
 	text-align: center;
 }
 #portfolio .work ul {
@@ -750,31 +751,31 @@ header .btn {
 }
 /*-- Gallery --*/
 .image-gallery {
-    overflow: auto;
-    margin-left: -1% !important;
+	overflow: auto;
+	margin-left: -1% !important;
 	margin-bottom: 0;
 }
 .image-gallery li {
-    float: left;
-    display: block;
-    margin: 0 0 1% 1%;
-    width: 19%;
+	float: left;
+	display: block;
+	margin: 0 0 1% 1%;
+	width: 19%;
 }
 .image-gallery li a {
-    text-align: center;
-    text-decoration: none !important;
-    color: #777;
+	text-align: center;
+	text-decoration: none !important;
+	color: #777;
 }
 .image-gallery li a span {
-    display: block;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 3px 0;
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 3px 0;
 }
 .image-gallery li a img {
-    width: auto;
-    display: block;
+	width: auto;
+	display: block;
 	height: 150px;
 }
 /*-- Gallery Filter --*/
@@ -783,7 +784,7 @@ button.btn.filter {
 	font-size: 1.5rem;
 	font-weight: 600;
 	text-decoration: none;
-	&:hover, 
+	&:hover,
 	&:focus {
 		color: #494949;
 		-webkit-transition: all 0.2s ease-in-out;
@@ -795,43 +796,43 @@ button.btn.filter {
 }
 /*-- Gallery Carousel --*/
 // Carousel outer (wrapper)
-.carousel-wrapper {    
-    max-width: 1280px;
-    padding: 0 5rem;
-    margin: 0 auto 0 auto;
-    border-radius: 5px;    
-    position:relative;
-    &:before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        color: black;
-    }
+.carousel-wrapper {
+	max-width: 1280px;
+	padding: 0 5rem;
+	margin: 0 auto 0 auto;
+	border-radius: 5px;
+	position: relative;
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		color: black;
+	}
 }
 // Carousel inner (container)
 .carousel-container {
-    position: relative;
+	position: relative;
 	display: flex;
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 }
 // Carousel items
 .carousel-slide {
-    margin-left: 0.1rem;
-    position: relative;
+	margin-left: 0.1rem;
+	position: relative;
 	aspect-ratio: 4 / 3;
-    &:before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        color: black;
-    }
-    &:hover, 
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		color: black;
+	}
+	&:hover,
 	&:focus {
-        cursor: pointer;
-    }
+		cursor: pointer;
+	}
 	img {
 		display: inline-block;
 		vertical-align: middle;
@@ -841,43 +842,42 @@ button.btn.filter {
 }
 // Carousel card layout
 .card {
-    text-align: center;    
-    margin: 0 auto;
-    max-width: 200px;       
-    color: #333;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 200px;
+	color: #333;
 	background-color: var(--main-background-color);
 	background-image: var(--main-background-image);
 	background-position: var(--main-background-position);
 	background-size: var(--main-background-size);
 	background-repeat: var(--main-background-repeat);
-    border-radius: 5px;
-    padding-bottom: .75rem;
-    font-family: sans-serif;
-    overflow: hidden;
-    box-shadow: 2px 2px rgba(black, .3);
-    position: relative;
-    &:before {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        color: black;
-    }
-    img {
-        margin-bottom: .25rem;
-    }
-    h2 {
-        font-size: 1.2rem;
-        margin: 0 0 .25rem;
-    }
-    p {
-        margin: 0;
-        padding: 0 .5rem;
-        font-size:0.8rem;
-    }
+	border-radius: 5px;
+	padding-bottom: 0.75rem;
+	font-family: sans-serif;
+	overflow: hidden;
+	box-shadow: 2px 2px rgba(black, 0.3);
+	position: relative;
+	&:before {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		color: black;
+	}
+	img {
+		margin-bottom: 0.25rem;
+	}
+	h2 {
+		font-size: 1.2rem;
+		margin: 0 0 0.25rem;
+	}
+	p {
+		margin: 0;
+		padding: 0 0.5rem;
+		font-size: 0.8rem;
+	}
 }
 // Carousel controls
-#carousel-controls
-{
+#carousel-controls {
 	font-size: 2rem;
 	color: #000;
 	display: inline-flex;
@@ -921,7 +921,7 @@ button.btn.filter {
 			line-height: 5;
 		}
 	}
-	&:hover, 
+	&:hover,
 	&:focus {
 		color: #494949;
 		-webkit-transition: all 0.1s ease-in-out;
@@ -1041,32 +1041,33 @@ button.btn.filter {
 }
 /*-- contact-form --*/
 #contact-form {
-	padding-top: 70px;
-	padding-bottom: 35px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
-#contact-form .block form .form-group {
+#contact-form form .form-group {
 	padding-bottom: 15px;
 	margin: 0px;
 }
-#contact-form .block form .form-group .form-control {
+#contact-form form .form-group .form-control {
 	background: #f6f8fa;
 	height: 60px;
 	border: 1px solid #eef2f6;
 	box-shadow: none;
 	width: 100%;
 }
-#contact-form .block form .form-group-2 {
+#contact-form form .form-group-2 {
 	padding-bottom: 15px;
 	margin: 0px;
 }
-#contact-form .block form .form-group-2 textarea {
+#contact-form form .form-group-2 textarea {
 	background: #f6f8fa;
 	height: 135px;
 	border: 1px solid #eef2f6;
 	box-shadow: none;
 	width: 100%;
+	grid-row: 3;
 }
-#contact-form .block button {
+#contact-form button.btn {
 	width: 100%;
 	height: 60px;
 	background: #47424c;
@@ -1074,6 +1075,22 @@ button.btn.filter {
 	color: #fff;
 	font-family: "Open Sans", sans-serif;
 	font-size: 18px;
+}
+#contact-form > textarea {
+	cursor: text;
+}
+#bots-r-us {
+	display: none;
+}
+.contact-success {
+	color: $success-color;
+	text-align: center;
+	padding-bottom: 1.5rem;
+}
+.contact-failure {
+	color: $primary-color;
+	text-align: center;
+	padding-bottom: 1.5rem;
 }
 /*-- wrapper-contact --*/
 .address-block li {
@@ -1102,7 +1119,7 @@ button.btn.filter {
 .google-map {
 	position: relative;
 	width: 100%;
-	height: 100%
+	height: 100%;
 }
 #contact-box {
 	padding-top: 35px;
@@ -1183,7 +1200,7 @@ footer .footer-manu ul li {
 footer .footer-manu ul li a {
 	display: inline-block;
 	color: #000;
-	&:hover, 
+	&:hover,
 	&:focus {
 		color: #494949;
 	}

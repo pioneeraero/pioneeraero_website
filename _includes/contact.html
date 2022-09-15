@@ -14,32 +14,15 @@
 <!-- contact form start -->
 <section id="contact-form">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-sm-12">
-				<div class="block">
-					<form>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Your Name">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Email Address">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Subject">
-						</div>
-					</form>
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="block">
-					<form>
-						<div class="form-group-2">
-							<textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
-						</div>
-						<button class="btn btn-default" type="submit">Send Message</button>
-					</form>
-				</div>
-			</div>
+		<form name="contact" data-netlify="true" netlify-honeypot="bots-r-us" hidden>
+			<input type="text" name="bots-r-us" />
+			<input type="text" name="name" />
+			<input type="email" name="email" />
+			<input type="text" name="subject" />
+			<textarea name="message"></textarea>
+			<!-- <div className="captcha" data-netlify-recaptcha="true"></div> -->
+		</form>
+		<div id="contact-form-wrapper">
 		</div>
 		<div id="contact-box" class="row">
 			<div class="col-md-6 col-sm-12">
