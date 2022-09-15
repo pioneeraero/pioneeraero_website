@@ -1,6 +1,7 @@
 ---
-title: 'For Sale'
+title: "For Sale"
 layout: page
+permalink: /sale/
 ---
 
 ![Book]({{ '/assets/uploads/2021/03/Go-Fast-or-Go-Home-FRONTCVR.jpg' | relative_url }})

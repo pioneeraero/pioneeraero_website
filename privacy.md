@@ -1,4 +1,5 @@
 ---
-title: 'Privacy Policy'
+title: "Privacy Policy"
 layout: page
+permalink: /privacy/
 ---
