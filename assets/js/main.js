@@ -65,47 +65,56 @@ document.addEventListener("DOMContentLoaded", () => {
     || CAROUSEL ||
     ||==========*/
 
+	// Fix carousel not working when number of images < slidesperView
+	const evaluateMaxNofChild = ( number ) => {
+		const carouselChildren = document.querySelectorAll( ".carousel-container .swiper-slide" ).length;
+		
+		return ( number >= carouselChildren ? carouselChildren : number );
+		};
+
 	// Carousel Settings
-	let slider = tns({
-		container: ".carousel-container",
-		loop: true,
-		items: 3,
-		slideBy: "page",
-		edgePadding: -15,
-		gutter: 0,
-		nav: false,
-		navPosition: "bottom",
-		autoplay: false,
-		autoHeight: true,
-		autoplayButtonOutput: false,
-		mouseDrag: true,
-		arrowKeys: true,
-		controlsContainer: "#carousel-controls",
-		// controlsText: ['<', '>'],
-		prevButton: ".prev",
-		nextButton: ".next",
-		responsive: {
+	const swiper = new Swiper(".carousel-container", {
+		// on: {
+		// 	init: function(){
+		// 		console.log(this); // Swiper
+		// 	},
+		// },
+		slidesPerView: 1,
+		slidesPerGroup: 1,
+		spaceBetween: 10,
+		centerInsufficientSlides: true,
+		centerSlidesBounds: true,
+		// loop: true,
+		loopedSlidesLimit: false,
+		// height: 150,
+		grabCursor: true,
+		keyboard: {
+			enabled: true
+		},
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev"
+		},
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+			},
+		breakpoints: {
 			360: {
-				items: 3
+				slidesPerView: evaluateMaxNofChild(2),
+				slidesPerGroup: evaluateMaxNofChild(2)
 			},
 			640: {
-				items: 4
+				slidesPerView: evaluateMaxNofChild(4),
+				slidesPerGroup: evaluateMaxNofChild(4)
 			},
-
+	
 			768: {
-				items: 5
+				slidesPerView: evaluateMaxNofChild(6),
+				slidesPerGroup: evaluateMaxNofChild(6)
 			}
 		}
-	});
-
-	// Check for carousel movement
-	let dragMove = false;
-	slider.events.on("dragEnd", function (info) {
-		dragMove = false;
-	});
-	slider.events.on("dragMove", function (info) {
-		dragMove = true;
-	});
+	});		
 
 	/*==========||
     || LIGHTBOX ||
@@ -115,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	function is_youtubelink(url) {
 		let p = /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
 		return url.match(p) ? RegExp.$1 : false;
-	}
+	};
 	// Check for image link
 	function is_imagelink(url) {
 		let p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))/i;
@@ -243,14 +252,14 @@ document.addEventListener("DOMContentLoaded", () => {
 	elements = document.querySelectorAll("a.lightbox-image");
 	elements.forEach((element) => {
 		element.addEventListener("click", function (event) {
-			if (dragMove == true) return;
-			else {
+			// if (dragMove == true) return;
+			// else {
 				event.preventDefault();
 				document.getElementById("lightbox").innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\'' + this.getAttribute("href") + '\') center center / contain no-repeat;" title="' + this.getAttribute("title") + '" ><img src="' + this.getAttribute("href") + '" alt="' + this.getAttribute("title") + '" /></div><span>' + this.getAttribute("title") + "</span>";
 				document.getElementById("lightbox").style.display = "block";
 
 				setGallery(this);
-			}
+			// }
 		});
 	});
 });
