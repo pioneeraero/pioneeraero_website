@@ -1,28 +1,56 @@
 <!-- Slider Start -->
-<section id="global-header" class="news-header">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="block">
-					<h1 class="animate__animated animate__fadeIn">News</h1>
-					<p class="animate__animated animate__fadeIn">Check out our latest progress.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="news-header" id="global-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1 class="animate__animated animate__fadeIn">News</h1>
+                    <p class="animate__animated animate__fadeIn">Check out our latest progress.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- Slider Close --->
 <!-- News Feed -->
-<!--<section id="news">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-10 offset-md-2">
-				<div class="block">{% for post in site.posts %}<div class="post-area">
-						<a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-						<p class="post-date">{{ post.date | date_to_long_string }}</p>
-						<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-					</div>{% endfor %}</div>
-			</div>
-		</div>
-	</div>
-</section>-->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-3">
+                <ul>
+                    <label for="post_index"></label>
+                    <select id="post_index" name="post_index">
+                        {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+                        {% for year in postsInYear %}
+                            <li>
+                                <option value="">
+                                    <a href="#{{ year.name }}">
+                                        <strong>{{ year.name }}</strong>
+                                        <span class="taxonomy__count">({{ year.items | size }})</span>
+                                    </a>
+                                </option>
+                            </li>
+                        {% endfor %}
+                    </select>
+                </ul>
+            </div>
+            {% assign entries_layout = page.entries_layout | default: 'list' %}
+            {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+            {% for year in postsByYear %}
+                <div id="{{ year.name }}" class="col-md-9 offset-1 col-8">
+                    <div class="block">
+                        <h2 class="archive__subtitle">{{ year.name }}</h2>
+                        <div class="entries-{{ entries_layout }}">
+                            {% for post in year.items %}
+                                {% include archive-single.html type=entries_layout %}
+                            {% endfor %}
+                        </div>
+                        <a class="back-to-top" href="#">
+                            {{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

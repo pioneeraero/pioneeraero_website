@@ -92,6 +92,14 @@ hr {
 	font-size: 36px;
 	font-weight: 600;
 }
+.back-to-top {
+	font-weight: 600;
+	&:after {
+		font-family: "Font Awesome 6 Free";
+		font-weight: 900;
+		content: "\f102";
+	}
+}
 /*-- Header --*/
 header {
 	background-color: var(--main-background-color);
@@ -266,6 +274,7 @@ a.img-fluid:hover {
 	background-size: var(--main-background-size);
 	background-repeat: var(--main-background-repeat);
 }
+
 /*-- Service --*/
 #service {
 	background-color: var(--main-background-color);
@@ -640,7 +649,7 @@ a.img-fluid:hover {
 // #portfolio .work ul .active:before {
 // 	content: "\f0d7";
 // 	position: absolute;
-// 	font-family: "FontAwesome";
+// 	font-family: "Font Awesome 6 Free";
 // 	bottom: -18px;
 // 	font-size: 30px;
 // 	width: 20px;
@@ -660,7 +669,7 @@ a.img-fluid:hover {
 // #portfolio .work ul li:hover:before {
 // 	content: "\f0d7";
 // 	position: absolute;
-// 	font-family: "FontAwesome";
+// 	font-family: "Font Awesome 6 Free";
 // 	bottom: -18px;
 // 	font-size: 30px;
 // 	width: 20px;

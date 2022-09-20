@@ -1,8 +1,10 @@
 ---
 title: News
-layout: posts
+layout: page
 permalink: /news/
+pagination: 
+  enabled: true
 ---
 
-{% include sidebar.html %}
+<!-- {% include sidebar.html %} -->
 {% include news.html %}
