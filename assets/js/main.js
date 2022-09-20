@@ -105,13 +105,32 @@ document.addEventListener("DOMContentLoaded", () => {
 				slidesPerGroup: evaluateMaxNofChild(2)
 			},
 			640: {
+				slidesPerView: evaluateMaxNofChild(3),
+				slidesPerGroup: evaluateMaxNofChild(3)
+			},
+			768: {
+				slidesPerView: evaluateMaxNofChild(3),
+				slidesPerGroup: evaluateMaxNofChild(3)
+			},
+			960: {
 				slidesPerView: evaluateMaxNofChild(4),
 				slidesPerGroup: evaluateMaxNofChild(4)
 			},
-	
-			768: {
+			1000: {
 				slidesPerView: evaluateMaxNofChild(6),
 				slidesPerGroup: evaluateMaxNofChild(6)
+			},
+			1200: {
+				slidesPerView: evaluateMaxNofChild(6),
+				slidesPerGroup: evaluateMaxNofChild(6)
+			},
+			1440: {
+				slidesPerView: evaluateMaxNofChild(6),
+				slidesPerGroup: evaluateMaxNofChild(6)
+			},
+			2160: {
+				slidesPerView: evaluateMaxNofChild(8),
+				slidesPerGroup: evaluateMaxNofChild(8)
 			}
 		}
 	});		

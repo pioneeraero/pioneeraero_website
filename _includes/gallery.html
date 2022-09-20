@@ -1,6 +1,6 @@
 <div class="swiper carousel-container">
     <hr>
-    <div class="image-gallery swiper-wrapper">
+    <div class="swiper-wrapper">
         {% assign sorted = site.static_files | sort: 'name' %}
         {% for file in sorted %}
             {% if file.path contains include.folder %}
