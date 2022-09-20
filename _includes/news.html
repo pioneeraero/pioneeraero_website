@@ -37,7 +37,7 @@
             {% assign entries_layout = page.entries_layout | default: 'list' %}
             {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
             {% for year in postsByYear %}
-                <div id="{{ year.name }}" class="col-md-9 offset-1 col-8">
+                <div id="{{ year.name }}" class="col-8 col-md-9 offset-1 offset-md-0">
                     <div class="block">
                         <h2 class="archive__subtitle">{{ year.name }}</h2>
                         <div class="entries-{{ entries_layout }}">
