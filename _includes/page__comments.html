@@ -1,0 +1,96 @@
+<section class="page__reactions">
+    {% if site.repository and site.staticman.branch %}
+        {% if site.data.comments[page.slug] %}
+            <!-- Start static comments -->
+            <div class="js-comments" id="comments">
+                <h2 class="page__section-label">
+                    {% if site.data.comments[page.slug].size > 1 %}
+                        {{ site.data.comments[page.slug] | size }}
+                    {% endif %}
+                    Comments
+                </h2>
+                {% assign comments = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1].replying_to == blank' %}
+                {% for comment in comments %}
+                    {% assign index = forloop.index %}
+                    {% assign replying_to = comment[1].replying_to | to_integer %}
+                    {% assign avatar = comment[1].avatar %}
+                    {% assign email = comment[1].email %}
+                    {% assign name = comment[1].name %}
+                    {% assign url = comment[1].url %}
+                    {% assign date = comment[1].date %}
+                    {% assign message = comment[1].message %}
+                    {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date message=message %}
+                {% endfor %}
+            </div>
+            <!-- End static comments -->
+        {% endif %}
+        {% unless page.comments_locked == true %}
+            <!-- Start new comment form -->
+            <div id="respond">
+                <h2 class="page__section-label">Leave a Comment
+                    <small>
+                        <a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">Cancel reply</a>
+                    </small>
+                </h2>
+                <form action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments" class="page__form js-form form" id="comment-form" method="post">
+                    <fieldset>
+                        <label for="comment-form-message">
+                            <strong>Comment</strong>
+                            <small>(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a>
+                                is allowed)</small>
+                        </label>
+                        <textarea id="comment-form-message" name="fields[message]" required rows="6" spellcheck="true" type="text"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <label for="comment-form-name">
+                            <strong>Name</strong>
+                        </label>
+                        <input id="comment-form-name" name="fields[name]" required spellcheck="false" type="text">
+                    </fieldset>
+                    <fieldset>
+                        <label for="comment-form-email">
+                            <strong>Email</strong>
+                            <small>(used for
+                                <a href="http://gravatar.com">Gravatar</a>
+                                image and reply notifications)</small>
+                        </label>
+                        <input id="comment-form-email" name="fields[email]" required spellcheck="false" type="email">
+                    </fieldset>
+                    <fieldset>
+                        <label for="comment-form-url">
+                            <strong>Website</strong>
+                            <small>(optional)</small>
+                        </label>
+                        <input id="comment-form-url" name="fields[url]" type="url"/>
+                    </fieldset>
+                    <fieldset class="hidden" style="display: none;">
+                        <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+                        <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
+                        <input id="comment-replying-to" name="fields[replying_to]" type="hidden" value="">
+                        <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
+                        <label for="comment-form-location">Leave blank if you are a human</label>
+                        <input autocomplete="off" id="comment-form-location" name="fields[hidden]" type="text">
+                    </fieldset>
+                    <!-- Start comment form alert messaging -->
+                    <p class="hidden js-notice">
+                        <span class="js-notice-text"></span>
+                    </p>
+                    <!-- End comment form alert messaging -->
+                    <fieldset>
+                        <label for="comment-form-reply">
+                            <input id="comment-form-reply" name="options[subscribe]" type="checkbox" value="email">
+                            Notify me of replies by email.
+                        </label>
+                        <button class="btn btn--large" id="comment-form-submit" type="submit">Submit Comment</button>
+                    </fieldset>
+                </form>
+            </div>
+            <!-- End new comment form -->
+        {% else %}
+            <p>
+                <em>Comments are closed. If you have a question concerning the content of this page, please feel free to
+                    <a href="/contact/">contact us</a>.</em>
+            </p>
+        {% endunless %}
+    {% endif %}
+</section>

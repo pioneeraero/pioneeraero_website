@@ -60,7 +60,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
-    jekyll-paginate (1.1.0)
+    jekyll-paginate-v2 (3.0.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-readme-index (0.3.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-relative-links (0.6.1)
@@ -104,7 +105,7 @@ GEM
     public_suffix (5.0.0)
     racc (1.6.0)
     rainbow (3.1.1)
-    rb-fsevent (0.11.1)
+    rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
@@ -143,7 +144,7 @@ DEPENDENCIES
   jekyll-github-metadata
   jekyll-include-cache
   jekyll-optional-front-matter
-  jekyll-paginate
+  jekyll-paginate-v2
   jekyll-readme-index
   jekyll-relative-links
   jekyll-remote-theme
