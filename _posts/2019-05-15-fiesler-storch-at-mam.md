@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2555'
 permalink: /2019/05/15/fiesler-storch-at-mam/
-categories: Blog
+categories: news
 ---
 
 Another day waiting for the P39 to turn up and yet another type of aircraft to help out with. Steve, Marty and Craig helping out the crew from the Military Aviation Museum assemble a Fiesler Storch for the upcoming Airshow. Still having a little too much fun it looks like from here.

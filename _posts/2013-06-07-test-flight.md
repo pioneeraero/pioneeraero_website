@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1559'
 permalink: /2013/06/07/test-flight/
-categories: Blog
+categories: news
 ---
 
 The news has come through that Dave Brown has successfully flown Brian Halls Christchurch based aircraft. The prospect of a three ship formation beacons in the not too distant future.

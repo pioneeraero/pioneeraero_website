@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2025'
 permalink: /2015/05/25/strikemaster-artwork/
-categories: Blog
+categories: news
 ---
 
 A big thanks to Brett Nicholls for the new artwork that is now hanging in our foyer, for those of you that want to see these 2 aircraft “in the flesh” don’t forget the New Zealand Warbird Open Day this Sunday.

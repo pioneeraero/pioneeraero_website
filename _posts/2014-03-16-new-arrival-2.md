@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1724'
 permalink: /2014/03/16/new-arrival-2/
-categories: Blog
+categories: news
 ---
 
 On Friday we hosted all of the owners of New Zealand’s flying Strikemaster Jet fleet.

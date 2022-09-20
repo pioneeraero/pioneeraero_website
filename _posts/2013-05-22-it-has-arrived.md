@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1538'
 permalink: /2013/05/22/it-has-arrived/
-categories: Blog
+categories: news
 ---
 
 Strikemaster 72 has arrived and the container has been unpacked. We are just awaiting MAF inspection before moving it all to the hangar. While we wait we listen to the weather forcast that is predicting 120kph winds and hail, sigh.

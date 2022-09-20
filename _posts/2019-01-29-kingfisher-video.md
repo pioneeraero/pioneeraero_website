@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2472'
 permalink: /2019/01/29/kingfisher-video/
-categories: Blog
+categories: news
 ---
 
 The video of the P39 attracted a lot of attention so we thought you may be interested in a video that Kermit Weeks shot at Pioneer Aero in 2017 and released a month or so ago.

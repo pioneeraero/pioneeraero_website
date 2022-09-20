@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2597'
 permalink: /2019/05/24/done-and-dusted/
-categories: Blog
+categories: news
 ---
 
 The Pioneer Aero crew of Steve, Marty and Craig have now finished the assembly of and ground run the P39. For them that means they can look forward to heading back this way and a slight drop in temperature. Thanks go to them for a fine job done but also to their families who have been here at home without them, thanks to you all.

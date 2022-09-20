@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1777'
 permalink: /2014/07/04/tempest-mkii/
-categories: Blog
+categories: news
 ---
 
 Pioneer Aero’s rollercoaster ride with the Tempest MkII is about to come to an end. In the last 2 years this project has given us for various reasons hope, jubilation and despair.

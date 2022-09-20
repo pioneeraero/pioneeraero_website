@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1563'
 permalink: /2013/06/19/tempest-syndicate/
-categories: Blog
+categories: news
 ---
 
 Before the accident that claimed the lives of Eric and Kathy Hertz it was their dream to restore to flying Tempest MW376. One of the prime motivators for this dream was the opportunity to honour the New Zealanders who flew with 486 Squadron in the Typhoon and Tempest aircraft.

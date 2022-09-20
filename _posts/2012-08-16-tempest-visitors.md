@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1234'
 permalink: /2012/08/16/tempest-visitors/
-categories: Blog
+categories: news
 ---
 
 A big day for us all on Tuesday with visitors coming in to view the Tempest. Guest’s of honour was Jack Stafford and his wife Edith, Jack needs no real introduction and we were pleased to be able to re-unite him with the Tempest after last sitting in one in 1946. Also present were Jim McCaw’s sons Donald and John and Ron Peet who flew P40’s and Corsairs with the RNZAF.

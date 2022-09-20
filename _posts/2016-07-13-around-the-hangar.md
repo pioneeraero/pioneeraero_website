@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2245'
 permalink: /2016/07/13/around-the-hangar/
-categories: Blog
+categories: news
 ---
 
 Since we shifted in to the Hangar in December we have been continuing to develop and improve the facilities. This work has involved the general clean up, painting of floors and areas of the roof (this is still ongoing) additional clear-lite panels, a new front entrance door and additional lighting.

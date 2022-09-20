@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2459'
 permalink: /2018/10/14/warbird-digest/
-categories: Blog
+categories: news
 ---
 
 From our friends at Warbird Digest.

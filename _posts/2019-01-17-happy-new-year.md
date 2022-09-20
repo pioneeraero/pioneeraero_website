@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2463'
 permalink: /2019/01/17/happy-new-year/
-categories: Blog
+categories: news
 ---
 
 We have been fairly quiet on social media as of late but have been working away none the less. The team has returned well rested from a much deserved Christmas break.

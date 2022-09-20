@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1860'
 permalink: /2014/10/03/maintenance-update/
-categories: Blog
+categories: news
 ---
 
 The repairs to the P40 CAG fuselage are all but completed, the coolers have been removed for repairs and the 100hr annual servicing is about to comence.

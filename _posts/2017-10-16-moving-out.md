@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2378'
 permalink: /2017/10/16/moving-out/
-categories: Blog
+categories: news
 ---
 
 It finally happened last week Bristol Freighter NZ5911 was uplifted and moved off our tarmac to the Ports of Auckland to begin it’s journey back to Filton. This was the end of what has been a rather large logistical exercise with the container carrying the engines, props and other ancillary parts having left early last month.

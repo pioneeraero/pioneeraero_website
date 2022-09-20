@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2361'
 permalink: /2017/08/10/august-update/
-categories: Blog
+categories: news
 ---
 
 Work carries on with the P39, P40’s and also the dismantling and preparing of the Bristol Freighter for it’s trip to the UK. The P39 has had both of it’s wings trial fitted which was a huge relief to the team who had spent a lot of hours replacing and reaming wing fittings, with the wings on we are reminded that this is a small aeroplane only 36 ft wingspan.

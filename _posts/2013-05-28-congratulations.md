@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1551'
 permalink: /2013/05/28/congratulations/
-categories: Blog
+categories: news
 ---
 
 Congratulations to Brian and Kevin in Christchurch. Brian’s ex Saudi Strikemaster yesterday received the tick in the box from NZCAA to allow it to start its test flight program. Test flying will be done by Dave Brown and once he is finished in Christchurch we should have 72 ready for him up here.

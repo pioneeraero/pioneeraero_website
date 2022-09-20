@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2235'
 permalink: /2016/06/23/kittyhawk-rear-fuselage/
-categories: Blog
+categories: news
 ---
 
 !["Kittyhawk"]({{ '/assets/uploads/2016/06/IMG_1146.jpg' | relative_url }})

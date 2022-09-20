@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2170'
 permalink: /2015/10/28/sign-of-the-times/
-categories: Blog
+categories: news
 ---
 
 Behind this rather uninspiring blank canvas from the middle of December sits the new premise of Pioneer Aero ltd. Yes we are relocating to 540 Corsair Lane Ardmore Airfield and as from the 15th of December we will be up and running at the new address.

@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2525'
 permalink: /2019/05/07/a-different-perspective/
-categories: Blog
+categories: news
 ---
 
 A Month or so ago we had a visit from a non aviation photographer who took a series of shots around the hangar which shows the place through a different set of eyes. The focus is not so much on the technical which ours tend to be but on the everyday workings.

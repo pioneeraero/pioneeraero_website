@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1576'
 permalink: /2013/07/18/july-update/
-categories: Blog
+categories: news
 ---
 
 Assembly on Strikemaster 72 has stalled momentarily while we await the arrival of parts and also carry out the annual on Strikemaster 70. As well as the annual 70 has had the wings removed and all of the NDT inspections carried out, I am pleased to say no defects were found. Staying with the Strikemaster theme I have just spoken to Brian Hall from Christchurch who tells me that ZK-VPR has completed its test flying in the very capable hands of Dave Brown and a non terminating CA of A is now being applied for. Pioneer Aero is pleased to have been associated with this aircraft in both and advisory and hands on capacity since it’s arrival in New Zealand.

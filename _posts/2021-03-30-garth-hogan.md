@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2775'
 permalink: /2021/03/30/garth-hogan/
-categories: Blog
+categories: news
     - Featured
 ---
 

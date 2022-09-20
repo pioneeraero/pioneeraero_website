@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2818'
 permalink: /2021/07/20/hangar-walk-around/
-categories: Blog
+categories: news
 ---
 
 Last week we were visited by Dave Homewood who did a small video and podcast on what is happening here at Pioneer Aero both now and looking forward.

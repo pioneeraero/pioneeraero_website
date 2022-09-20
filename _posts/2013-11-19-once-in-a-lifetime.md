@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1662'
 permalink: /2013/11/19/once-in-a-lifetime/
-categories: Blog
+categories: news
 ---
 
 We knew it was unseasonably cold here at Ardmore this morning but when we looked out the window it was like hell had frozen over.

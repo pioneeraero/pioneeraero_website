@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1441'
 permalink: /2013/03/26/update-pre-easter/
-categories: Blog
+categories: news
 ---
 
 Lots has happened since the last post, Staggerwing is now flying, the Tempest project moves on as does the T51. The Strikemaster has had the control surfaces and fin painted and is going back together in time for Classic Fighters this weekend.

@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2671'
 permalink: /2020/03/23/covid-19-lockdown/
-categories: Blog
+categories: news
 ---
 
 Yesterday the New Zealand Government made the decision to move our alert status to level three and then level four as of midnight tomorrow.

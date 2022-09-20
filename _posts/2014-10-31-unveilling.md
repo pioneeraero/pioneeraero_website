@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1864'
 permalink: /2014/10/31/unveilling/
-categories: Blog
+categories: news
 ---
 
 Just arrived on the tarmac ready for the big unveil at 11.00am on Monday.

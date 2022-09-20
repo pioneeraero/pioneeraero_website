@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2488'
 permalink: /2019/02/18/another-p39-engine-run/
-categories: Blog
+categories: news
 ---
 
 For those of you that are interested and we know there are a few here is another video taken by Tony Smith the other morning. Check some of Tony’s other great work at [https://tonysmithphotography.co.nz/](https://tonysmithphotography.co.nz/).

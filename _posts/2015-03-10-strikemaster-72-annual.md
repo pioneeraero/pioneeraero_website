@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1944'
 permalink: /2015/03/10/strikemaster-72-annual/
-categories: Blog
+categories: news
 ---
 
 Strikemaster 72 after it’s first years flying back in New Zealand starts its annual servicing today. Check current maintenance on the website for details.

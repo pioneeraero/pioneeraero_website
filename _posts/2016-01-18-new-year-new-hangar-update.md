@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2187'
 permalink: /2016/01/18/new-year-new-hangar-update/
-categories: Blog
+categories: news
 ---
 
 The dust is finally starting to settle from the hangar shift and work continues around the sorting out hangar improvements.

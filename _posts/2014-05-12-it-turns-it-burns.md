@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1747'
 permalink: /2014/05/12/it-turns-it-burns/
-categories: Blog
+categories: news
 ---
 
 Both Father (Brett Nicholls) and Uncle (George of Ardmore Sky Station) are pleased to anounce the rebirth of NZ6362.

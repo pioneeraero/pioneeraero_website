@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2620'
 permalink: /2019/08/29/sorry-about-that/
-categories: Blog
+categories: news
 ---
 
 We have had a few issues with the website that we are having fixed no so apologies to those that have been unable to access photos, the fix is in hand.

@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2834'
 permalink: /2021/11/11/p40-first-flight/
-categories: Blog
+categories: news
 ---
 
 With Frank Parker at the controls on the 11th hour of the 11th day of the 11th month ZK-MOM lifted off the ground at Ardmore for it’s first flight in almost 80 years. Thanks go to all those that made this happen, over the course of the restoration both local, national and international firms and individuals were involved in making this come to fruition.

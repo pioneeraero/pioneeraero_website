@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1294'
 permalink: /2012/09/28/september-28th/
-categories: Blog
+categories: news
 ---
 
 We would like to congratulate all involved in the return of Mosquito KA114 to the air here at Ardmore. It was great to see it become airbourne yesterday after following the work for so many years, and we are all looking forward to it flying tomorrow with several other aircraft of the same era.

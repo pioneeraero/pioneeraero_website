@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2177'
 permalink: /2015/11/19/november-walk-around/
-categories: Blog
+categories: news
 ---
 
 It has been a while since the last post and things have moved on. Progress is ongoing preparing the “new” hangar for occupation, we move in less than a month.

@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2508'
 permalink: /2019/03/21/farewell-little-kobra/
-categories: Blog
+categories: news
 ---
 
 The P39 has now finished test flying, been granted a non terminating C of A and is now being packed and containerised for it’s trip to the Military Aviation Museum in Virginia U.S.A. All this has happened this week!

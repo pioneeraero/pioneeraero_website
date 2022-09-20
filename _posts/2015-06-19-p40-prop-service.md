@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2047'
 permalink: /2015/06/19/p40-prop-service/
-categories: Blog
+categories: news
 ---
 
 After having its’ 5 yearly inspection carried out the Curtis Electric prop is now back on ZK-CAG.

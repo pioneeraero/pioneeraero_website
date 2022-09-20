@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1694'
 permalink: /2014/01/17/strikemaster-62/
-categories: Blog
+categories: news
 ---
 
 Steve is heading to Western Australia next week to repatriate this aircraft. We are pleased to have been associated with bring these aircraft back from extinction in their native land.

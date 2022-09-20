@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2762'
 permalink: /2021/03/26/douglas-sbd-5-dauntless/
-categories: Blog
+categories: news
 ---
 
 Pioneer Aero are very proud to be asked by The Fighter Factory and Military Aviation Museum to carry out the restoration of the SBD-5 Dauntless B-22 Serial Number 36175. To be involved with this iconic aircraft is a big honour. We feel that the relationship that was forged between The Fighter Factory and Military Aviation Museum and Pioneer Aero Ltd with the restoration of the P-39 Airacobra was very positive and remains so to this day. This was demonstrated by Tom Kurtz III asking us if we wished to take on this restoration.

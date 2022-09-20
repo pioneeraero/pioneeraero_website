@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1410'
 permalink: /2012/12/14/new-arrival/
-categories: Blog
+categories: news
 ---
 
 Look what arrived this morning, a new arrival to New Zealands vintage aircraft scene.

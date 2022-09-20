@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1739'
 permalink: /2014/04/10/pre-easter-update/
-categories: Blog
+categories: news
 ---
 
 Strikemaster 72 has now completed 2 test flights the second one which was curtailed because of weather, it is now sitting in the hangar awaiting Dave Browns return from HK. Hopefully the weather will play the game on Tuesday when the next flight is scheduled .

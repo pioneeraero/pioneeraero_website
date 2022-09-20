@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2274'
 permalink: /2017/01/05/out-with-the-old-in-with-the-new/
-categories: Blog
+categories: news
 ---
 
 Year that is.

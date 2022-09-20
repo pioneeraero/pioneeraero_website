@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2095'
 permalink: /2015/07/16/project-updates/
-categories: Blog
+categories: news
 ---
 
 Both the Titan T51 and also the T28 Trojan have made great strides towards first flights.

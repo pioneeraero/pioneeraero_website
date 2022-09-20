@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2247'
 permalink: /2016/09/22/signed-off/
-categories: Blog
+categories: news
 ---
 
 The day has come, yesterday Gary Leach from NZCAA issued the C of A so the mighty R2000 powered T28 can begin test flying. Congratulations to Brian Hall and Kevin Langford.

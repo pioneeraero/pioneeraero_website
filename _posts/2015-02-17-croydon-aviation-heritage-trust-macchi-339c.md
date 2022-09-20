@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1926'
 permalink: /2015/02/17/croydon-aviation-heritage-trust-macchi-339c/
-categories: Blog
+categories: news
 ---
 
 Last week with assistance from Colin Smith and his team from Croydon Aircraft, Pioneer Aero assembled the ex RNZAF Macchi 339c, 75 to go on display in the Trust’s fine hangar at Mandeville just north of Gore.

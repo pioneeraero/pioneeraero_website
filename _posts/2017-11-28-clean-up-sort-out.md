@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2401'
 permalink: /2017/11/28/clean-up-sort-out/
-categories: Blog
+categories: news
 ---
 
 You know it is the “Silly season” starting when you have the Christmas functions in fully swing and group visits through the hangar. Last weekend it was a group from TACCOC and this weekend we are proud to show the members of the WONZ Forum around, great excuse for a major clean up.

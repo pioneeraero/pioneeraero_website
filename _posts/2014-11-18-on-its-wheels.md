@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1885'
 permalink: /2014/11/18/on-its-wheels/
-categories: Blog
+categories: news
 ---
 
 After picking possibly the worst day for a month and battling the elements and one stubborn bolt the T28 is on it’s wheels and starting to show its size.

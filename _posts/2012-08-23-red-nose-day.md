@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1243'
 permalink: /2012/08/23/red-nose-day/
-categories: Blog
+categories: news
 ---
 
 CAG is in the shop for it’s annual servicing, red nose didn’t fit too well but I’m sure you get the picture. We are proud to still be associated with this aircraft which was rebuilt here and is still going strong.

@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2263'
 permalink: /2016/11/17/watch-out-for-this/
-categories: Blog
+categories: news
 ---
 
 After undergoing some repairs and a full strip and repaint Strikemaster 72 (ZK-BAC) is almost ready to return to the air.

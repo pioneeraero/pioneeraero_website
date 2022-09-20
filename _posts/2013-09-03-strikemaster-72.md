@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1614'
 permalink: /2013/09/03/strikemaster-72/
-categories: Blog
+categories: news
 ---
 
 Last week it was out with the old engine and this week it is in with the new. Pity back in the day we didn’t have magicians with remote-controlled Hiabs and had to make do with the Galleon or pity help us Coles crane. I do recall an engine sitting outside AMS at Ohakea overnight slung underneath a crane which had broken down.

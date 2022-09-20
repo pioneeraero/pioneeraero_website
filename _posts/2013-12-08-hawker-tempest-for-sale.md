@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1672'
 permalink: /2013/12/08/hawker-tempest-for-sale/
-categories: Blog
+categories: news
 ---
 
 The Tempest project is now for sale on the “world market”. A huge thank you to those people who have contacted us and offered support, in all sorts of ways to restore and keep the project here in New Zealand but as we have not reached the threshold needed the decision has been made to actively market it overseas.

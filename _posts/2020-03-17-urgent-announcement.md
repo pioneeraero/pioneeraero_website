@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2669'
 permalink: /2020/03/17/urgent-announcement/
-categories: Blog
+categories: news
 ---
 
 Due to the rapidly evolving health alert in regard to **Covid-19** Pioneer Aero regretfully has had to close it’s doors to all visitors as from today.

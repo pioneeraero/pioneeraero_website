@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1346'
 permalink: /2012/11/01/staff-photo/
-categories: Blog
+categories: news
 ---
 
 Not the best of days weather wise but we thought it was about time we took a staff photo.

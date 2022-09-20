@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1896'
 permalink: /2014/12/04/family-photo/
-categories: Blog
+categories: news
 ---
 
 Thought this might bring back a few memories for some, a shot of the last 30 years of RNZAF jets which unfortunately may be the last of the RNZAF jets.

@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2436'
 permalink: /2018/07/31/our-most-recent-milestone/
-categories: Blog
+categories: news
 ---
 
 Wings on, Wheels down…

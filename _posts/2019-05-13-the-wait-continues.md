@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2547'
 permalink: /2019/05/13/the-wait-continues/
-categories: Blog
+categories: news
 ---
 
 As the waiting continues the team from Pioneer Aero have kept themselves busy assisting the MAM engineers. Having the weekend off they used it to best advantage and made the pilgrimage to Kittyhawk, would have been rude not to.

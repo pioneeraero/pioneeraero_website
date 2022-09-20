@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2282'
 permalink: /2017/01/20/strikemasters/
-categories: Blog
+categories: news
 ---
 
 As most of you probably know by now this weekends Airshow at Tauranga will be the last chance you will get to see Strikemasters 62 and 70 flying together in New Zealand. Once they have returned to Ardmore dis-assembly will start and they will be containerised for shipment to the US. One consolation for all you Strikemaster fans out there should be they are returning to their “natural habitat” and will be flying in the close air support role in support of US military training out of Las Vegas.

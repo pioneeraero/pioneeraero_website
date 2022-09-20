@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2016'
 permalink: /2015/05/20/projects-arrive/
-categories: Blog
+categories: news
 ---
 
 The P39 and 2 Kingfishers have finally hit the tarmac at Ardmore, let the fun begin.

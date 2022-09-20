@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1991'
 permalink: /2015/04/28/new-projects/
-categories: Blog
+categories: news
 ---
 
 We are pleased to announce that in the next week or so we will be recieving 3 new projects, details of these are on our website.

@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2477'
 permalink: /2019/02/01/important-delivery/
-categories: Blog
+categories: news
 ---
 
 What we are hoping is the last piece of the P39 Puzzle has arrived, exciting times for February.

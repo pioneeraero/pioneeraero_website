@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2231'
 permalink: /2016/05/26/happy-owner/
-categories: Blog
+categories: news
 ---
 
 A gloomy day at Ardmore couldn’t dampen the smile on David Lanes face as he taxied around the airfield and then for the first time got to see his aircraft fly. A few final touches, mainly cosmetic and then it is decision time, how long does it stay in New Zealand? and how much flying do I do in it here? and how do I get it to Australia?

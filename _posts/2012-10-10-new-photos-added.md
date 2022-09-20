@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1305'
 permalink: /2012/10/10/new-photos-added/
-categories: Blog
+categories: news
 ---
 
 It has been a busy couple of weeks with a lot of visitors through the shop.

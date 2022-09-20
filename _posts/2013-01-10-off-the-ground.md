@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1415'
 permalink: /2013/01/10/off-the-ground/
-categories: Blog
+categories: news
 ---
 
 Wishing you al belated seasons compliments .

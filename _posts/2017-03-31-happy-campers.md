@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2309'
 permalink: /2017/03/31/happy-campers/
-categories: Blog
+categories: news
 ---
 
 Normally there would be a great deal of suspicion with these two looking like this but we know that the tool man has just been and delivered the goodies.

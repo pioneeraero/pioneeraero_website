@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2533'
 permalink: /2019/05/10/waiting-and-helping-out/
-categories: Blog
+categories: news
 ---
 
 A delay at the border for the P39 container has meant that the team from Pioneer Aero have arrived in Virginia minus aircraft. While they are waiting they have been filling in their time by assisting the team at the Military Aviation Museum to prepare their inventory in preparation for next weekends Airshow.

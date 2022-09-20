@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1068'
 permalink: /2012/07/31/new-website/
-categories: Blog
+categories: news
 ---
 
 After a series of technical problems we are now back in business with our new/updated website.

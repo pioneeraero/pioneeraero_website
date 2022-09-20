@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2237'
 permalink: /2016/06/27/eric-hertz-accident-report/
-categories: Blog
+categories: news
 ---
 
 At 1500 hrs today the NZCAA published their report into Eric’s accident, link below.

@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1480'
 permalink: /2013/04/30/1st-of-may-update/
-categories: Blog
+categories: news
 ---
 
 Work has started in earnest on the P40E fuselage with a start made on assembling the firewall and fuselage frames, photos to come shortly.

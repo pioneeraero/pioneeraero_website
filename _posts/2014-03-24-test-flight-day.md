@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1733'
 permalink: /2014/03/24/test-flight-day/
-categories: Blog
+categories: news
 ---
 
 The day is less than perfect but finally Strikemaster 72 is ready for it’s test flights. Lets hope the weather gods are kind to us.

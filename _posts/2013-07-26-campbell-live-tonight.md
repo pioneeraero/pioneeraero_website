@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1589'
 permalink: /2013/07/26/campbell-live-tonight/
-categories: Blog
+categories: news
 ---
 
 I have just heard from Lachlan Forsyth from TV3 our Tempest story is set to run tonight. TV3 7.00pm.

@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2522'
 permalink: /2019/04/29/reshuffle/
-categories: Blog
+categories: news
 ---
 
 With the P39 only days away from it’s new home and the re-assembly team ready to leave early next week the rest of the hangar is now changing shape. The wing jigs have been erected and building P40 wings now is starting in earnest with at least 2 sets needed. To accommodate this the P40-E has been moved into the “next out the door” position.

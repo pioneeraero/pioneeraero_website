@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1873'
 permalink: /2014/11/03/mig-25-and-su27-tyres/
-categories: Blog
+categories: news
 ---
 
 Hi if anyone is interested view the following.

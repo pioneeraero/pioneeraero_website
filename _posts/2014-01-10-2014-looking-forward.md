@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1685'
 permalink: /2014/01/10/2014-looking-forward/
-categories: Blog
+categories: news
 ---
 
 Almost every one is now back at work after a well-earned break. I have posted some more photos of the p40 E and you will see with the addition of some fuselage skins there is very good visual progress, work will continue on this and we may as the year moves on start on other components for this aircraft.

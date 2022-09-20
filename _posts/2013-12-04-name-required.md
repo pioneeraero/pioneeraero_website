@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1670'
 permalink: /2013/12/04/name-required/
-categories: Blog
+categories: news
 ---
 
 We were just wondering what was the correct terminology for a group of spotters, gaggle maybe?

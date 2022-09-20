@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1620'
 permalink: /2013/09/26/september-update/
-categories: Blog
+categories: news
 ---
 
 Coming up to the end of another busy month. Check out the new photos in the Bearhawk, P40-E and Titan pages.

@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2321'
 permalink: /2017/04/11/a-busy-couple-of-days/
-categories: Blog
+categories: news
 ---
 
 Yesterday we had the pleasure of hosting Warbird collector and all round nice guy Kermit Weeks on his first visit to Ardmore in over 8 years.

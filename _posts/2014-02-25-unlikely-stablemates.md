@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1715'
 permalink: /2014/02/25/unlikely-stablemates/
-categories: Blog
+categories: news
 ---
 
 It would have been a few years since NZ6372 has been in a hangar with an aircraft with a hook and pretty sure last time it would have been an A4.

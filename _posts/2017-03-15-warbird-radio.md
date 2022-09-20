@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2294'
 permalink: /2017/03/15/warbird-radio/
-categories: Blog
+categories: news
 ---
 
 Thanks to Dave Homewood for having me as his guest yesterday on Warbird radio live.

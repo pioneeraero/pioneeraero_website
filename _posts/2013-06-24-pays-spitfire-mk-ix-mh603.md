@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1569'
 permalink: /2013/06/24/pays-spitfire-mk-ix-mh603/
-categories: Blog
+categories: news
 ---
 
 We are very pleased to be associated with the rebuild of this iconic aircraft, located at Pays Air Service base in Scone New South Wales, Australia. Pioneer Aero is currently restoring and in some cases remanufacturing components for the rebuild.

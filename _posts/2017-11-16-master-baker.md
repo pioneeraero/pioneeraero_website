@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2391'
 permalink: /2017/11/16/master-baker/
-categories: Blog
+categories: news
 ---
 
 Just as a bit of fun (although not all fun) we decided to have a cooking competition the rules were pretty clear anything that could be cooked in the small muffin tins we provided and no packet mixes. So every Wednesday for the past couple of months we have been teated to some mouth watering delicacy’s. I am very happy to say no real failures, certainly not in the taste department.

@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1744'
 permalink: /2014/05/07/nz6362-on-its-wheels/
-categories: Blog
+categories: news
 ---
 
 Strikemaster 6362 now has it’s wings fitted with new bolts (A big thanks to Tony from C.A.M.S.) and is back on the ground on it’s wheels. Hopefully early next week we will be runing the engine and then be carrying on with the work required to get her certified.

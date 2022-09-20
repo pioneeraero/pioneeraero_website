@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1871'
 permalink: /2014/11/03/aircraft-progress/
-categories: Blog
+categories: news
 ---
 
 We finished off October with the first engine run on the Zenair 801 taking place at 16.00 on Friday. All went well there and we now await a visit from CAA next week and then hopefully she is in the air.

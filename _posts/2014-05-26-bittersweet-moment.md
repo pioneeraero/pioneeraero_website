@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1753'
 permalink: /2014/05/26/bittersweet-moment/
-categories: Blog
+categories: news
 ---
 
 It is always a good feeling to be able to send someone thier aircraft, but we all had mixed feelings about this pack up.

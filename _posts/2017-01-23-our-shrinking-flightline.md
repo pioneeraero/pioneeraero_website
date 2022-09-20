@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=2286'
 permalink: /2017/01/23/our-shrinking-flightline/
-categories: Blog
+categories: news
 ---
 
 I know you should never say never but I will go out on a limb and say that I don’t think we will ever see 3 serviceable Strikemasters on the same bit of tarmac in New Zealand again. Let alone 3 ex RNZAF ones.

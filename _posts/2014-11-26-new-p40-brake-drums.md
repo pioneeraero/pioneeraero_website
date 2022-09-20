@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1890'
 permalink: /2014/11/26/new-p40-brake-drums/
-categories: Blog
+categories: news
 ---
 
 One of the difficulties keeping the Warbird aircraft flying is finding components that can be overhauled. The P40 brakes are an area were the pool of restorable items has started to dry up, especially the brake drums which have a tendency to crack or go out of round.

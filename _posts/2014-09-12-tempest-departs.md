@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1852'
 permalink: /2014/09/12/tempest-departs/
-categories: Blog
+categories: news
 ---
 
 In June 2012 Eric Hertz bought out to Pioneer Aero two bottles of bubbly. The first one was drunk to celebrate the arrival of two container loads of parts from France that it was hoped in a year or two’s time would be a flying Hawker Tempest MkII.

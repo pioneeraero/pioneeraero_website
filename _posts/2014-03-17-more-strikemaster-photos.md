@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1729'
 permalink: /2014/03/17/more-strikemaster-photos/
-categories: Blog
+categories: news
 ---
 
 It must be 20 years + since 3 Strikemasters graced the same piece of tarmac in this country. Looks a bit like the unofficial reforming of some sort of STRIKEmaster force.

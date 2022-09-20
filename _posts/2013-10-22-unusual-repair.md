@@ -6,7 +6,7 @@ author: Paul McSweeney
 layout: post
 guid: 'https://www.pioneeraero.co.nz/?p=1652'
 permalink: /2013/10/22/unusual-repair/
-categories: Blog
+categories: news
 ---
 
 To the list of non aeronautical items we now add an H1 Hummer. William has riveted the rear LH quarter back on after a small issue with a wheel departing.
