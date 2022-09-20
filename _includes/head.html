@@ -3,7 +3,6 @@
 <title>{% if page.title %}{{ site.title }} | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 <!-- CSS -->
 <link rel="stylesheet" href="/assets/css/main.css" />
 <!-- JS -->
@@ -13,7 +12,6 @@
 <script src="/assets/js/search.js"></script>
 <script src="/assets/js/filter.js"></script>
 <script src="/assets/js/swiper-bundle.min.js"></script>
-<!-- <script src="/assets/js/carousel.js"></script> -->
-<script src="https://www.google.com/recaptcha/api.js"></script>
-{% if page.url == '/contact/' %}<script defer src="/assets/js/contact.js"></script>{% endif %}
+<script src="https://www.google.com/recaptcha/api.js"></script> {% if page.url == '/contact/' %}
+<script defer src="/assets/js/contact.js"></script>{% endif %}
 <script src="/assets/js/main.js"></script>
