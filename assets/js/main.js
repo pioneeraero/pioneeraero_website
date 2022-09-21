@@ -86,7 +86,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		centerSlidesBounds: true,
 		// loop: true,
 		loopedSlidesLimit: false,
-		// height: 150,
 		grabCursor: true,
 		keyboard: {
 			enabled: true
@@ -271,14 +270,23 @@ document.addEventListener("DOMContentLoaded", () => {
 	elements = document.querySelectorAll("a.lightbox-image");
 	elements.forEach((element) => {
 		element.addEventListener("click", function (event) {
-			// if (dragMove == true) return;
-			// else {
 				event.preventDefault();
 				document.getElementById("lightbox").innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\'' + this.getAttribute("href") + '\') center center / contain no-repeat;" title="' + this.getAttribute("title") + '" ><img src="' + this.getAttribute("href") + '" alt="' + this.getAttribute("title") + '" /></div><span>' + this.getAttribute("title") + "</span>";
 				document.getElementById("lightbox").style.display = "block";
 
 				setGallery(this);
-			// }
 		});
 	});
+
+	/*==========||
+    ||NEWS INDEX||
+    ||==========*/
+	
+	if (document.getElementById("post_index") && document.getElementById("post_index").value) {
+			document.getElementById("post_index").onchange = function() {
+				if (this.selectedIndex!==0) {
+					window.location.href = this.value;
+				}        
+			};
+		}
 });
