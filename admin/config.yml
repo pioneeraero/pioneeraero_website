@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: "assets/uploads"
+media_folder: "assets/img/news"
 publish_mode: editorial_workflow
 collections:
   - name: "news" # Used in routes, e.g., /admin/collections/blog
