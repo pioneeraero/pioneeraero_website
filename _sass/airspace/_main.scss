@@ -97,7 +97,15 @@ hr {
 	&:after {
 		font-family: "Font Awesome 6 Free";
 		font-weight: 900;
-		content: "\f102";
+		content: "\f148";
+	}
+}
+.back-arrow {
+	font-weight: 600;
+	&:before {
+		font-family: "Font Awesome 6 Free";
+		font-weight: 900;
+		content: "\f0e2\0020";
 	}
 }
 /*-- Header --*/

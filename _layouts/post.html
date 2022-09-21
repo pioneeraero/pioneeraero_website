@@ -3,24 +3,28 @@ layout: page
 ---
 
 <div class="post">
-  <!-- Wrapper Start -->
-  <section id="intro" style="border: 1px dotted #ddd;">
-    <div class="container">
-      <div class="row">
-        <div>
-          <div class="block">
-            <h1>{{ page.title }}</h1>
-            <div class="post-info-wrapper">
-              <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
+    <!-- Wrapper Start -->
+    <section id="intro" style="border: 1px dotted #ddd;">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <div class="block">
+                        <h1>{{ page.title }}</h1>
+                        <div class="post-info-wrapper">
+                            <p class="italic">By
+                                <span class="bold">{{ page.author }}</span>
+                                on
+                                <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span>
+                            </p>
+                        </div>
+                        <hr>
+                        {{ content }}
+                    </div>
+                </div><!-- .col-md-7 close -->
             </div>
-            <hr>
-            {{ content }}
-          </div>
-        </div><!-- .col-md-7 close -->
-      </div>
-    </div>
-	<p class="center-text" style="padding: 30px;">
-	  <a href="{{ '/news/' | relative_url }}">Back to News</a>
-	</p>
-  </section>
+        </div>
+        <p class="center-text" style="padding: 30px;">
+            <a class="back-arrow" href="{{ '/news/' | relative_url }}">Back to News</a>
+        </p>
+    </section>
 </div>
