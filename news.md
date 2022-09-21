@@ -6,5 +6,4 @@ pagination:
   enabled: true
 ---
 
-<!-- {% include sidebar.html %} -->
 {% include news.html %}
