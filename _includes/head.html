@@ -12,6 +12,11 @@
 <script src="/assets/js/search.js"></script>
 <script src="/assets/js/filter.js"></script>
 <script src="/assets/js/swiper-bundle.min.js"></script>
-<script src="https://www.google.com/recaptcha/api.js"></script> {% if page.url == '/contact/' %}
-<script defer src="/assets/js/contact.js"></script>{% endif %}
+<script src="https://www.google.com/recaptcha/api.js"></script>
+{% if page.url == '/admin/' %}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{% endif %}
+{% if page.url == '/contact/' %}
+<script defer src="/assets/js/contact.js"></script>
+{% endif %}
 <script src="/assets/js/main.js"></script>
