@@ -253,7 +253,12 @@ a.img-fluid:hover {
 }
 /*-- news wrapper --*/
 #news {
-	padding: 0;
+	background-color: var(--main-background-color);
+	background-image: var(--main-background-image);
+	background-position: var(--main-background-position);
+	background-size: var(--main-background-size);
+	background-repeat: var(--main-background-repeat);
+	padding: 2rem 0;
 }
 #news .block h2 {
 	padding-top: 35px;
@@ -532,7 +537,7 @@ a.img-fluid:hover {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/slider-bg.jpg") no-repeat;
 }
 .sale-header {
-	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/slider-bg.jpg") no-repeat;
+	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40n-1-kittyhawk/p-40n-1-kittyhawk-6.jpg") no-repeat;
 }
 .staff-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/feature-bg.jpg") no-repeat;
