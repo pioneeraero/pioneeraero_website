@@ -1,7 +1,7 @@
 ---
 title: 'Yakovlev Yak-3'
 date: '2012-07-17T09:16:17+13:00'
-layout: page
+layout: projects
 categories: projects
 ---
 

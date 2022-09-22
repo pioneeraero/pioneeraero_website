@@ -1,7 +1,7 @@
 ---
 title: 'Painting Showcase'
 date: '2020-07-16T20:15:45+13:00'
-layout: page
+layout: projects
 categories: projects
 ---
 

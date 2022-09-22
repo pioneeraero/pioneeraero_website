@@ -1,7 +1,7 @@
 ---
 title: 'Hawker Tempest MkII'
 date: '2012-07-31T20:06:42+13:00'
-layout: page
+layout: projects
 categories: projects
 ---
 

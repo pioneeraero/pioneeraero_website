@@ -94,6 +94,7 @@ hr {
 }
 .back-to-top {
 	font-weight: 600;
+	padding-top: 3rem;
 	&:after {
 		font-family: "Font Awesome 6 Free";
 		font-weight: 900;
@@ -102,6 +103,7 @@ hr {
 }
 .back-arrow {
 	font-weight: 600;
+	padding-top: 7rem;
 	&:before {
 		font-family: "Font Awesome 6 Free";
 		font-weight: 900;
@@ -242,7 +244,6 @@ a.img-fluid:hover {
 	padding-top: 20px;
 }
 #intro .block img {
-	padding-left: 40px;
 	width: 100%;
 }
 #intro .section-title {
@@ -265,12 +266,14 @@ a.img-fluid:hover {
 	line-height: 27px;
 	margin: 0;
 }
-#news .block p {
+#news .block div {
 	color: #7b7b7b;
 	padding-top: 20px;
 }
+#news .block p {
+	color: #7b7b7b;
+}
 #news .block img {
-	padding-left: 40px;
 	width: 100%;
 }
 #news .section-title {
@@ -546,43 +549,43 @@ a.img-fluid:hover {
 .bearhawk-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/bearhawk/bearhawk-10.jpg") center no-repeat;
 }
-.p-39f-1be-airacobra-header {
-	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-39f-1be-airacobra/airacobra-14.jpg") center no-repeat;
+.bell-p-39f-1-be-airacobra-header {
+	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/bell-p-39f-1-be-airacobra/airacobra-14.jpg") center no-repeat;
 }
-.p-40e-kittyhawk-1997-header {
+.curtiss-p-40e-kittyhawk-1997-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40e-kittyhawk-1997/p-40e-kittyhawk-1997-4.jpg") center no-repeat;
 }
-.p-40e-kittyhawk-2004-header {
+.curtiss-p-40e-kittyhawk-2004-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40e-kittyhawk-2004/p-40e-kittyhawk-2004-1.jpg") center no-repeat;
 }
-.p-40e-kittyhawk-2013-header {
+.curtiss-p-40e-kittyhawk-2013-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40e-kittyhawk-2013/p-40e-kittyhawk-2013-25.jpg") center no-repeat;
 }
-.p-40e-kittyhawk-ak940-header {
+.curtiss-p-40e-kittyhawk-ak940-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40e-kittyhawk-ak940/p-40e-kittyhawk-ak940-1.jpg") center no-repeat;
 }
-.p-40e-s41-13570-header {
-	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40e-s41-13570/p-40e-s41-13570-38.jpg") center no-repeat;
+.curtiss-p-40e-kittyhawk-s-41-13570-header {
+	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40e-kittyhawk-s-41-13570/p-40e-kittyhawk-s-41-13570-38.jpg") center no-repeat;
 }
-.p-40f-kittyhawk-header {
+.curtiss-p-40f-kittyhawk-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40f-kittyhawk/p-40f-kittyhawk-3.jpg") center no-repeat;
 }
-.p-40k-kittyhawk-header {
+.curtiss-p-40k-kittyhawk-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40k-kittyhawk/p-40k-kittyhawk-4.jpg") center no-repeat;
 }
-.p-40n-1-kittyhawk-1-header {
-	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40n-1-kittyhawk-1/p-40n-1-kittyhawk-1-3.jpg") center no-repeat;
+.curtiss-p-40n-1-cu-kittyhawk-header {
+	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40n-1-cu-kittyhawk/p-40n-1-cu-kittyhawk-6.jpg") center no-repeat;
 }
-.p-40n-1-kittyhawk-2-header {
-	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40n-1-kittyhawk-2/p-40n-1-kittyhawk-2-2.jpg") center no-repeat;
+.curtiss-p-40n-1-kittyhawk-a29-414-header {
+	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40n-1-kittyhawk-a29-414/p-40n-1-kittyhawk-a29-414-2.jpg") center no-repeat;
 }
-.p-40n-1-kittyhawk-header {
-	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40n-1-kittyhawk/p-40n-1-kittyhawk-6.jpg") center no-repeat;
+.curtiss-p-40n-1-kittyhawk-nz3125-header {
+	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40n-1-kittyhawk-nz3125/p-40n-1-kittyhawk-nz3125-3.jpg") center no-repeat;
 }
-.p-40n-1-nz3147-header {
-	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40n-1-nz3147/p-40n-1-nz3147-1.jpg") center no-repeat;
+.curtiss-p-40n-1-kittyhawk-nz3147-header {
+	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40n-1-kittyhawk-nz3147/p-40n-1-kittyhawk-nz3147-1.jpg") center no-repeat;
 }
-.p-40n-5-kittyhawk-header {
+.curtiss-p-40n-5-kittyhawk-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/curtiss-p-40n-5-kittyhawk/p-40n-5-kittyhawk-1.jpg") center no-repeat;
 }
 .fuel-and-oil-tanks-header {
@@ -597,13 +600,13 @@ a.img-fluid:hover {
 .mustang-p-51d-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/mustang-p-51d/mustang-p-51d-1.jpg") center no-repeat;
 }
-.t28-trojan-header {
+.north-american-t28-trojan-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/north-american-t28-trojan/t28-trojan-17.jpg") center no-repeat;
 }
 .painting-showcase-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/painting-showcase/painting-showcase-5.jpg") center no-repeat;
 }
-.tt193-header {
+.sea-hornet-tt193-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/sea-hornet-tt193/tt193-1.jpg") center no-repeat;
 }
 .strikemaster-62-header {
@@ -618,13 +621,13 @@ a.img-fluid:hover {
 .titan-t51-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/titan-t51/titan-t51-33.jpg") center no-repeat;
 }
-.kingfisher-5982-header {
-	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/vought-os2u-kingfisher-5982/kingfisher-5982-1.jpg") center no-repeat;
+.vought-os2u-kingfisher-bu-5982-header {
+	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/vought-os2u-kingfisher-bu-5982/kingfisher-bu-5982-1.jpg") center no-repeat;
 }
-.kingfisher-5985-header {
-	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/vought-os2u-kingfisher-5985/kingfisher-5985-1.jpg") center no-repeat;
+.vought-os2u-kingfisher-bu-5985-header {
+	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/vought-os2u-kingfisher-bu-5985/kingfisher-bu-5985-1.jpg") center no-repeat;
 }
-.yak-3-header {
+.yakovlev-yak-3-header {
 	background: linear-gradient(to left, rgba(139, 134, 163, 0.8), rgba(50, 46, 64, 0.8)), url("/assets/img/projects/yakovlev-yak-3/yak-3-5.jpg") center no-repeat;
 }
 /*-- Portfolio Content --*/

@@ -1,7 +1,7 @@
 ---
-title: 'P-40E Kittyhawk'
+title: 'Curtiss P-40E Kittyhawk (2004)'
 date: '2012-07-17T09:08:09+13:00'
-layout: page
+layout: projects
 categories: projects
 ---
 

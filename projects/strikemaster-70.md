@@ -1,7 +1,7 @@
 ---
 title: 'Strikemaster 70'
 date: '2012-07-19T20:41:23+13:00'
-layout: page
+layout: projects
 categories: projects
 ---
 
