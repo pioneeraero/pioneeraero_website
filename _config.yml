@@ -45,6 +45,7 @@ exclude:
   - "*.gemspec"
   - "/contact-form/"
   - "/docs/"
+  - "/licenses/"
   - "Gemfile"
   - "Gemfile.lock"
   - "LICENSE.md"
