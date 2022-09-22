@@ -14,21 +14,25 @@ layout: page
 </section>
 <section id="portfolio">
     <div class="container">
-        <div class="post-info-wrapper">
-            <p class="italic">Originally posted on
-                <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span>
-            </p>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="post-info-wrapper">
+                    <p class="italic">Originally posted on
+                        <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span>
+                    </p>
+                </div>
+                {% capture project_gallery %}/assets/img/projects/{{ page.title | slugify }}{% endcapture %}
+                {% include gallery.html folder=project_gallery %}
+            </div>
+            <div class="col-md-8 offset-md-2">
+                {{ content }}
+            </div>
+            <div class="col-md-8 offset-md-2">
+                {% include page__comments.html %}
+            </div>
         </div>
-        {% capture project_gallery %}/assets/img/projects/{{ page.title | slugify }}{% endcapture %}
-        {% include gallery.html folder=project_gallery %}
     </div>
-    <div class="col-md-8 offset-md-2">
-        {{ content }}
-    </div>
-    {% include page__comments.html %}
     <p class="center-text back-arrow">
-        <a href="{{ '/projects' | relative_url }}">
-            <strong>Back to Projects</strong>
-        </a>
+        <a href="{{ '/projects/' | relative_url }}">Back to Projects</a>
     </p>
 </section>
