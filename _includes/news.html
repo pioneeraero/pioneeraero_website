@@ -17,16 +17,16 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-3">
-                    <label for="post_index"></label>
-                    <select id="post_index" name="post_index">
-                        {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-                        {% for year in postsInYear %}
-                                <option value="#{{ year.name }}">
-                                        <strong>{{ year.name }}</strong>
-                                        <span class="taxonomy__count">({{ year.items | size }})</span>
-                                </option>
-                        {% endfor %}
-                    </select>
+                <label for="post_index"></label>
+                <select id="post_index" name="post_index">
+                    {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+                    {% for year in postsInYear %}
+                        <option value="#{{ year.name }}">
+                            <strong>{{ year.name }}</strong>
+                            <span class="taxonomy__count">({{ year.items | size }})</span>
+                        </option>
+                    {% endfor %}
+                </select>
             </div>
             {% assign entries_layout = page.entries_layout | default: 'list' %}
             {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
@@ -39,9 +39,11 @@
                                 {% include archive-single.html type=entries_layout %}
                             {% endfor %}
                         </div>
-                        <a class="back-to-top" href="#">
-                            {{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}
-                        </a>
+                        <p class="back-to-top">
+                            <a href="#">
+                                {{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}
+                            </a>
+                        </p>
                     </div>
                 </div>
             {% endfor %}

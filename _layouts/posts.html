@@ -30,7 +30,9 @@ layout: archive
                                 {% include archive-single.html type=entries_layout %}
                             {% endfor %}
                         </div>
-                        <a class="back-to-top" href="#">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}&uarr;</a>
+                        <p class="back-to-top">
+                            <a href="#">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}&uarr;</a>
+                        </p>
                     </div>
                 </div>
             </div>
