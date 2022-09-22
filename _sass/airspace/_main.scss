@@ -252,7 +252,7 @@ a.img-fluid:hover {
 #intro .section-title p {
 	padding-top: 20px;
 }
-/*-- news wrapper --*/
+/*-- News --*/
 #news {
 	background-color: var(--main-background-color);
 	background-image: var(--main-background-image);
@@ -290,7 +290,10 @@ a.img-fluid:hover {
 	background-size: var(--main-background-size);
 	background-repeat: var(--main-background-repeat);
 }
-
+.post-info-wrapper {
+	color: #666;
+	font-style: italic;
+}
 /*-- Service --*/
 #service {
 	background-color: var(--main-background-color);
@@ -775,6 +778,14 @@ a.img-fluid:hover {
 .staff img {
 	width: 216px;
 	padding: 1rem 0;
+}
+.project-info-wrapper {
+	color: #666;
+	font-style: italic;
+	text-decoration: underline;
+	p {
+		margin: 0;
+	}
 }
 /*---------------------------------------------
 					Gallery
