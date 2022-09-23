@@ -136,10 +136,10 @@ DEPENDENCIES
   bundle-audit (~> 0.1.0)
   bundler (~> 2.3.20)
   faraday-retry (~> 2.0)
-  jekyll (~> 3.9.1)
+  jekyll (~> 3.9.2)
   jekyll-coffeescript
   jekyll-default-layout
-  jekyll-feed (~> 0.6)
+  jekyll-feed
   jekyll-gist
   jekyll-github-metadata
   jekyll-include-cache

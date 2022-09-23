@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.9.1"
+gem "jekyll", "~> 3.9.2"
 gem "bundler", "~> 2.3.20"
 gem "faraday-retry", "~> 2.0"
 
@@ -11,7 +11,7 @@ gem "faraday-retry", "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-remote-theme"
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
   gem "jekyll-coffeescript"
