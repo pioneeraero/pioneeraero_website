@@ -294,6 +294,14 @@ a.img-fluid:hover {
 	color: #666;
 	font-style: italic;
 }
+.read__more {
+	font-weight: 600;
+	&:after {
+		font-family: "Font Awesome 6 Free";
+		font-weight: 900;
+		content: "\0020\f2f6";
+	}
+}
 /*-- Service --*/
 #service {
 	background-color: var(--main-background-color);
