@@ -57,9 +57,8 @@ p {
 	line-height: 28px;
 }
 ul {
-	// padding: 0;
-	// margin: 0;
-	list-style: none;
+	color: #7b7b7b;
+	padding-left: 1.6rem !important;
 }
 a,
 a:active,
@@ -109,6 +108,11 @@ hr {
 		font-weight: 900;
 		content: "\f0e2\0020";
 	}
+}
+audio {
+	width: 100%;
+	max-width: 1000px !important;
+	margin-top: 1.5rem;
 }
 /*-- Header --*/
 header {
@@ -783,9 +787,12 @@ a.img-fluid:hover {
 .tabs {
 	padding-bottom: 1rem;
 }
+.staff > h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0 !important;
+}
 .staff img {
 	width: 216px;
-	padding: 1rem 0;
+	padding: 1rem 0 0 0;
 }
 .project-info-wrapper {
 	color: #666;
