@@ -1,20 +1,18 @@
 ---
-id: 2436
-title: 'Our Most Recent Milestone&#8230;'
+title: 'Our Most Recent Milestone&hellip;'
 date: '2018-07-31T01:47:21+13:00'
 author: Paul McSweeney
 layout: post
-guid: 'https://www.pioneeraero.co.nz/?p=2436'
-permalink: /2018/07/31/our-most-recent-milestone/
+permalink: /news/2018/07/31/our-most-recent-milestone/
 categories: news
 ---
 
-Wings on, Wheels down…
+Wings on, wheels down…
 
-First outing for the P-39 into the sunshine since WW2
+First outing for the [P-39]({{ '/projects/bell-p-39f-1-be-airacobra' | relative_url }}) into the sunshine since WWII.
 
 Watch this space for more…
 
-![rpt]({{ '/assets/uploads/2018/07/p_39.jpg' | relative_url }})
+![rpt]({{ '/assets/img/news/2018/07/p_39.jpg' | relative_url }})
 
-![IMG_0502]({{ '/assets/uploads/2018/07/IMG_0502.jpg' | relative_url }})
+![IMG_0502]({{ '/assets/img/news/2018/07/IMG_0502.jpg' | relative_url }})
