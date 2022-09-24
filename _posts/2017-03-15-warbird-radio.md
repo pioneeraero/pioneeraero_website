@@ -1,16 +1,14 @@
 ---
-id: 2294
 title: 'Warbird Radio'
 date: '2017-03-15T22:51:48+13:00'
 author: Paul McSweeney
 layout: post
-guid: 'https://www.pioneeraero.co.nz/?p=2294'
-permalink: /2017/03/15/warbird-radio/
+permalink: /news/2017/03/15/warbird-radio/
 categories: news
 ---
 
-Thanks to Dave Homewood for having me as his guest yesterday on Warbird radio live.
+Thanks to Dave Homewood for having me as his guest yesterday on [Warbird Radio Live](https://web.archive.org/web/20200210221352/http://www.warbirdradio.com/2017/03/wings-over-new-zealand-live-restorer-paul-mcsweeny-31417-9pm-et/).
 
-below is a link if any of you wish to listen in. Well I think I have posted the link.
+The episode is embedded below if any of you wish to listen in.
 
-http://www.warbirdradio.com/2017/03/wings-over-new-zealand-live-restorer-paul-mcsweeny-31417-9pm-et/
+![The Wings Over New Zealand Show Live! – Restorer Paul McSweeny – Episode 17](/assets/doc/WONZ_LIVE17.mp3)
