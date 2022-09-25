@@ -124,10 +124,9 @@ GEM
       addressable (>= 2.3.5)
       faraday (>= 0.17.3, < 3)
     thor (1.2.1)
-    thread_safe (0.3.6)
-    tzinfo (1.2.10)
-      thread_safe (~> 0.1)
-    tzinfo-data (1.2022.3)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2022.4)
       tzinfo (>= 1.0.0)
     wdm (0.1.1)
 
@@ -135,9 +134,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bundle-audit (~> 0.1.0)
-  bundler (~> 2.3.20)
-  faraday-retry (~> 2.0)
+  bundle-audit
+  bundler
+  faraday-retry
   jekyll (~> 3.9.2)
   jekyll-coffeescript
   jekyll-default-layout
@@ -147,7 +146,7 @@ DEPENDENCIES
   jekyll-include-cache
   jekyll-optional-front-matter
   jekyll-paginate-v2
-  jekyll-pdf-embed (~> 1.1)
+  jekyll-pdf-embed
   jekyll-readme-index
   jekyll-relative-links
   jekyll-remote-theme
@@ -156,9 +155,9 @@ DEPENDENCIES
   jekyll-spaceship
   jekyll-titles-from-headings
   kramdown-parser-gfm
-  tzinfo (~> 1.2)
+  tzinfo
   tzinfo-data
-  wdm (~> 0.1.0)
+  wdm
 
 BUNDLED WITH
    2.3.20
