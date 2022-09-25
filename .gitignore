@@ -8,6 +8,7 @@
 .env.production.local
 .eslintrc
 .jekyll-metadata
+.netlify
 .pnp
 .pnp.js
 .sass-cache
