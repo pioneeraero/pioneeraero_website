@@ -23,7 +23,8 @@ body {
 	font-family: "Open Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
-body a {
+body a,
+body a > i {
 	color: #000;
 	text-decoration: none;
 	&:hover,
@@ -1046,6 +1047,12 @@ button.btn.filter {
 	font-weight: 300;
 	letter-spacing: 1px;
 	word-spacing: 3px;
+}
+#contact-form ul {
+	list-style: none;
+	li {
+		color: #000
+	}
 }
 /*-- contact-form --*/
 #contact-form {
