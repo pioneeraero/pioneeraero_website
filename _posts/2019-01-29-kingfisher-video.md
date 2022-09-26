@@ -1,14 +1,12 @@
 ---
-id: 2472
-title: 'Kingfisher Video.'
+title: 'Kingfisher Video'
 date: '2019-01-29T02:31:22+13:00'
 author: Paul McSweeney
 layout: post
-guid: 'https://www.pioneeraero.co.nz/?p=2472'
-permalink: /2019/01/29/kingfisher-video/
+permalink: /news/2019/01/29/kingfisher-video/
 categories: news
 ---
 
-The video of the P39 attracted a lot of attention so we thought you may be interested in a video that Kermit Weeks shot at Pioneer Aero in 2017 and released a month or so ago.
+The video of the [P-39]({{ '/projects/bell-p-39f-1-be-airacobra' | relative_url }}) attracted a lot of attention, so we thought you may be interested in a video that Kermit Weeks shot at Pioneer Aero in 2017 and released a month or so ago.
 
-![Kingfisher Project Visit - Pioneer Aero Tour](https://www.youtube.com/embed/YtPgnG49JC0)
+![Kingfisher Project Visit - Pioneer Aero Tour](https://www.youtube.com/watch?v=YtPgnG49JC0)
