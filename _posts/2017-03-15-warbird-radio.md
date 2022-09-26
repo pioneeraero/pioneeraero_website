@@ -11,4 +11,4 @@ Thanks to Dave Homewood for having me as his guest yesterday on [Warbird Radio L
 
 The episode is embedded below if any of you wish to listen in.
 
-![The Wings Over New Zealand Show Live! – Restorer Paul McSweeny – Episode 17](/assets/doc/WONZ_LIVE17.mp3)
+![The Wings Over New Zealand Show Live! – Restorer Paul McSweeny – Episode 17]({{ '/assets/doc/WONZ_LIVE17.mp3' | relative_url }})
