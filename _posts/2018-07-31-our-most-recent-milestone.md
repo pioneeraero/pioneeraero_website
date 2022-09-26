@@ -15,4 +15,4 @@ Watch this space for more…
 
 ![rpt]({{ '/assets/img/news/2018/07/p_39.jpg' | relative_url }})
 
-![IMG_0502]({{ '/assets/img/news/2018/07/IMG_0502.jpg' | relative_url }})
+![IMG_0502]({{ '/assets/img/projects/bell-p-39f-1-be-airacobra/airacobra-13.jpg' | relative_url }})

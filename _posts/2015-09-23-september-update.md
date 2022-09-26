@@ -17,6 +17,6 @@ Also arriving in the hangar last week was [P-40E 41-13570]({{ '/projects/curtiss
 
 Photos have been added to the [current maintanence]({{ '/projects/' | relative_url }}) and P-40 project.
 
-![In the Pioneer Aero hangar]({{ '/assets/img/news/2015/09/Copy-of-IMG_0014.jpg' | relative_url }})
+![In the Pioneer Aero hangar]({{ '/assets/img/projects/curtiss-p-40e-kittyhawk-s-41-13570/p-40e-kittyhawk-s-41-13570-3.jpg' | relative_url }})
 
 ![CAG Annual]({{ '/assets/img/news/2015/09/IMG_0008.jpg' | relative_url }})

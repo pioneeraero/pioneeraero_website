@@ -15,6 +15,6 @@ Paperwork has been submitted to CAA so things are getting close - look out for t
 
 The T28 is now domiciled in the [New Zealand Warbirds](https://nzwarbirds.org.nz/) #2 hangar, and now only needs the engine side of the 100hr annual and high power runs before CAA inspection.
 
-![Cowlings]({{ '/assets/img/news/2015/07/Copy-of-P1010513.jpg' | relative_url }})
+![Cowlings]({{ '/assets/img/projects/titan-t51/titan-t51-31.jpg' | relative_url }})
 
-![T28 engine run]({{ '/assets/img/news/2015/07/Copy-of-IMG_20150711_121835769_HDR.jpg' | relative_url }})
+![T28 engine run]({{ '/assets/img/projects/north-american-t28-trojan/t28-trojan-22.jpg' | relative_url }})

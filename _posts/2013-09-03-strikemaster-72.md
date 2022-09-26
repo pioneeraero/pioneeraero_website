@@ -13,4 +13,4 @@ Pity back in the day, we didn’t have magicians with remote-controlled HIABs an
 
 I do recall an engine sitting outside AMS at Ohakea overnight slung underneath a crane which had broken down.
 
-![New engine in place]({{ '/assets/img/news/2013/09/Copy-of-IMG_3765.jpg' | relative_url }})
+![New engine in place]({{ '/assets/img/projects/strikemaster-72/strikemaster-72-14.jpg' | relative_url }})

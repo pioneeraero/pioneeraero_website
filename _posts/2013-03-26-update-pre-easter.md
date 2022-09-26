@@ -13,4 +13,4 @@ The Strikemaster has had the control surfaces and fin painted, and is going back
 
 [Strikemaster 72]({{ '/projects/strikemaster-72' | relative_url }}) starts the journey back home next month.
 
-![Forward fuselage going back together]({{ '/assets/img/news/2013/03/Copy-of-IMG_2808-e1364241902828.jpg' | relative_url }})
+![Forward fuselage going back together]({{ '/assets/img/projects/hawker-tempest-mkii/hawker-tempest-mkii-14.jpg' | relative_url }})

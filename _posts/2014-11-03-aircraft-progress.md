@@ -13,6 +13,6 @@ Monday morning, and as the heavens opened, MAF arrived to inspect the new arriva
 
 ![ZK-PIP first engine run]({{ '/assets/img/news/2014/11/IMG_5295.jpg' | relative_url }})
 
-![Wing out]({{ '/assets/img/news/2014/11/IMG_5328.jpg' | relative_url }})
+![Wing out]({{ '/assets/img/projects/north-american-t28-trojan/t28-trojan-2.jpg' | relative_url }})
 
-![Doors open]({{ '/assets/img/news/2014/11/IMG_5316.jpg' | relative_url }})
+![Doors open]({{ '/assets/img/projects/north-american-t28-trojan/t28-trojan-1.jpg' | relative_url }})

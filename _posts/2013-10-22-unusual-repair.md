@@ -17,6 +17,6 @@ We also visited Bill Reid and were privileged to see his Anson fly once again, a
 
 ![Hummer left rear quarter repair]({{ '/assets/img/news/2013/10/IMG_3883.jpg' | relative_url }})
 
-![Napier Sabre]({{ '/assets/img/news/2013/10/Copy-of-IMG_0214.jpg' | relative_url }})
+![Napier Sabre]({{ '/assets/img/news/2013/10/IMG_0214.jpg' | relative_url }})
 
-![Paul, Steve, and Bill Reid]({{ '/assets/img/news/2013/10/Copy-of-IMG_0241.jpg' | relative_url }})
+![Paul, Steve, and Bill Reid]({{ '/assets/img/news/2013/10/IMG_0241.jpg' | relative_url }})

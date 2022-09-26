@@ -11,4 +11,4 @@ We were hoping to keep this secret, but with the amount of interest, that was ne
 
 This is to make sure before restoration gets into full swing that there are no major glitches in alignment and symmetry. All looks good!
 
-![Initial fit up and measure]({{ '/assets/img/news/2012/08/DSC01964.jpg' | relative_url }})
+![Initial fit up and measure]({{ '/assets/img/projects/hawker-tempest-mkii/hawker-tempest-mkii-4.jpg' | relative_url }})

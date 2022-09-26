@@ -14,4 +14,5 @@ How long does it stay in New Zealand?
 How much flying do I do in it here?  
 How do I get it to Australia?
 
-![Happy owner]({{ '/assets/img/news/2016/05/IMG_1038.jpg' | relative_url }})
+![Happy owner]({{ '/assets/img/projects/titan-t51/titan-t51-33.jpg' | relative_url }})
+

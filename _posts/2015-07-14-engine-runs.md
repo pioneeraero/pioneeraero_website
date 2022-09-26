@@ -15,4 +15,4 @@ Compare this to the bright sunshine for the [T28]({{ '/projects/north-american-t
 
 ![Preparation for the run]({{ '/assets/img/news/2015/07/P1010619.jpg' | relative_url }})
 
-![T28 engine run]({{ '/assets/img/news/2015/07/Copy-of-IMG_20150711_121835769_HDR.jpg' | relative_url }})
+![T28 engine run]({{ '/assets/img/projects/north-american-t28-trojan/t28-trojan-22.jpg' | relative_url }})

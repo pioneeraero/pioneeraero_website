@@ -15,4 +15,4 @@ NZCAA due here on Wednesday to certify NZ6372. We move ever closer to a multi-St
 
 ![Brett Nicholls, Charles Davis and Brian Hall]({{ '/assets/img/news/2014/03/IMG_4455.jpg' | relative_url }})
 
-![Proud new owner]({{ '/assets/img/news/2014/03/IMG_4463.jpg' | relative_url }})
+![Proud new owner]({{ '/assets/img/projects/strikemaster-62/strikemaster-62-9.jpg' | relative_url }})

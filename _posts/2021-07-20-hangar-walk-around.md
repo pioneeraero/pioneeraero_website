@@ -15,4 +15,4 @@ Last week, we were visited by Dave Homewood, who did a small video and podcast o
 
 Thanks to Dave for this, and for all the assistance he has given to us and others over the years.
 
-![Top Shot]({{ '/assets/img/news/2021/07/IMG_3349-1.jpg' | relative_url }})
+![Top Shot]({{ '/assets/img/projects/curtiss-p-40e-kittyhawk-s-41-13570/p-40e-kittyhawk-s-41-13570-38.jpg' | relative_url }})

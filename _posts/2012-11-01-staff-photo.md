@@ -9,7 +9,7 @@ categories: news
 
 Not the best of days weather wise but we thought it was about time we took a staff photo.
 
-![]({{ '/assets/img/news/2012/11/DSC02094.jpg' | relative_url }})
+![]({{ '/assets/img/projects/strikemaster-70/strikemaster-70-6.jpg' | relative_url }})
 
 Trevor is enjoying the assembly of the [Titan T51]({{ '/projects/titan-t51' | relative_url }}) but the lure of a fine afternoon during the week proved too much of a drawcard.
 

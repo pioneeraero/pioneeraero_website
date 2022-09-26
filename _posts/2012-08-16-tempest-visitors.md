@@ -13,6 +13,6 @@ Guests of honour were Jack Stafford and his wife Edith. Jack needs no real intro
 
 Also present were Jim McCaw’s sons, Donald and John, and Ron Peet, who flew P-40s and Corsairs with the RNZAF.
 
-![Jack Stafford seated in a Tempest for the first time in 66 years]({{ '/assets/img/news/2012/08/DSC01841.jpg' | relative_url }})
+![Jack Stafford seated in a Tempest for the first time in 66 years]({{ '/assets/img/projects/hawker-tempest-mkii/hawker-tempest-mkii-2.jpg' | relative_url }})
 
 ![Jack Stafford seated in a Tempest for the first time in 66 years]({{ '/assets/img/news/2012/08/4E8J1909.jpg' | relative_url }})
