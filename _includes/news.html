@@ -16,7 +16,7 @@
 <section id="portfolio">
     <div class="container">
         <div class="row">
-            <div class="col-md-2 col-3">
+            <div class="col-md-2 col-3 offset-md-1">
                 <label for="post_index"></label>
                 <select id="post_index" name="post_index">
                     {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
