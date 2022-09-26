@@ -306,6 +306,9 @@ a.img-fluid:hover {
 		font-weight: 900;
 		content: "\0020\f2f6";
 	}
+	&:visited {
+		color: #640000;
+	}
 }
 /*-- Service --*/
 #service {
