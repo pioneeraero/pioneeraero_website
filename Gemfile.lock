@@ -60,6 +60,7 @@ GEM
       octokit (~> 4.0, != 4.4.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-link-attributes (1.0.1)
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate-v2 (3.0.0)
@@ -146,6 +147,7 @@ DEPENDENCIES
   jekyll-gist
   jekyll-github-metadata
   jekyll-include-cache
+  jekyll-link-attributes
   jekyll-optional-front-matter
   jekyll-paginate-v2
   jekyll-pdf-embed

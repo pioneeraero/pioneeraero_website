@@ -19,14 +19,15 @@ group :jekyll_plugins do
   gem "jekyll-default-layout"
   gem "jekyll-gist"
   gem "jekyll-github-metadata"
+  gem "jekyll-include-cache"
+  gem "jekyll-link-attributes"
   gem "jekyll-optional-front-matter"
   gem "jekyll-paginate-v2"
-  gem "jekyll-readme-index"
-  gem "jekyll-titles-from-headings"
-  gem "jekyll-relative-links"
-  gem "jekyll-spaceship"
-  gem "jekyll-include-cache"
   gem "jekyll-pdf-embed"
+  gem "jekyll-readme-index"
+  gem "jekyll-relative-links"
+  gem "jekyll-titles-from-headings"
+  gem "jekyll-spaceship"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -39,6 +40,6 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", :install_if => Gem.win_platform?
 
-# kramdown v2 ships without the gfm parser by default. If you"re using
+# kramdown v2 ships without the gfm parser by default. If you're using
 # kramdown v1, comment out this line.
 gem "kramdown-parser-gfm"

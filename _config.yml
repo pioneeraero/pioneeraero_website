@@ -15,7 +15,6 @@ logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
-#remote-theme: TankedThomas/airspace-jekyll
 sass:
   sass_dir: _sass
   style: compressed
@@ -29,14 +28,19 @@ plugins:
   - jekyll-gist
   - jekyll-github-metadata
   - jekyll-include-cache
+  - jekyll-link-attributes
   - jekyll-optional-front-matter
   - jekyll-paginate-v2
-  - jekyll-readme-index
-  - jekyll-titles-from-headings
-  - jekyll-relative-links
-  - jekyll-spaceship
   - jekyll-pdf-embed
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+  - jekyll-spaceship
 # paginate: 8
+external_links:
+  enabled: true
+  rel: external
+  target: _blank
 imagesurl: "/assets/img/clients/"
 thumbsurl: "/assets/img/clients/"
 
@@ -54,8 +58,8 @@ exclude:
   - "clients.html"
   - "default.html.new"
   - "default.html.old"
-  - "Gemfile.lock"
   - "Gemfile"
+  - "Gemfile.lock"
   - "gemfiles/"
   - "LICENSE.md"
   - "node_modules"
@@ -81,9 +85,12 @@ descriptions:
 
   - cat: news
     desc: "Our news."
+    
 # Google analytics
 # ga_tracking_id: 'UA-XXXX-1'
+
 ############################################################
+
 # Pagination
 # The values here represent the defaults if nothing is set
 pagination:
