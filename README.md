@@ -1,6 +1,6 @@
 # Pioneer Aero Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f4cf9caa-cc97-4707-aae6-1c8a6d5b67a9/deploy-status)](https://app.netlify.com/sites/tourmaline-puppy-49d4b4/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f4cf9caa-cc97-4707-aae6-1c8a6d5b67a9/deploy-status)](https://tourmaline-puppy-49d4b4.netlify.app/)
 
 Repository for the [Pioneer Aero](https://www.pioneeraero.co.nz) website.
 
