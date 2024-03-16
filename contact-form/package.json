@@ -1,47 +1,27 @@
 {
-  "name": "contact",
-  "version": "0.2.0",
-  "homepage": "/contact/",
+  "name": "contact-form",
   "private": true,
-  "loader": "babel-loader?cacheDirectory",
-  "dependencies": {
-    "core-js": "^3.27.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^3.1.1"
-  },
+  "version": "0.2.5",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+	"build:move": "npx vite build && mv dist/assets/*.js ../assets/js/contact.js",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.12",
-    "@babel/preset-react": "^7.18.6",
-    "babel-loader": "^9.1.2",
-    "react": "^18.2.0",
-    "react-addons-update": "^15.6.3",
-    "react-dom": "^18.2.0",
-    "webpack": "^5.76.0"
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.6"
   }
 }
