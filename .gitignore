@@ -8,7 +8,6 @@ _site
 .env.production.local
 .env.test.local
 .eslintrc
-.eslintrc.cjs
 .idea
 .jekyll-cache
 .jekyll-metadata
@@ -33,7 +32,6 @@ build
 dist
 dist-ssr
 ehthumbs.db
-Gemfile.lock
 lerna-debug.log*
 logs
 node_modules
